@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Harrison Li",
+    "section": "",
+    "text": "I am a highly motivated graduate student in Masters of Data Science @ UBC with a strong foundation in physics and computational methods, interested in data science and computational modeling for solving real-world problems. My academic journey has equipped me with a diverse skill set spanning physics, mathematics, and programming, which I apply to tackle complex challenges. I am eager to contribute my analytical abilities and technical expertise to innovative projects while continuing to expand my knowledge and professional experience in my graduate studies."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Harrison Li",
+    "section": "Experience",
+    "text": "Experience\nFeng Chia University | Teaching Assitant - 1st year Classical Mechanics | Sep 2021 - Jan 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "This is a Quarto website draft.\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "A list of projects …\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "Projects Overview"
+    ]
+  },
+  {
+    "objectID": "more/kendama.html",
+    "href": "more/kendama.html",
+    "title": "Kendama",
+    "section": "",
+    "text": "Something fun  \n\n\n\n Back to top"
+  }
+]
