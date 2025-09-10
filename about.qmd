@@ -1,0 +1,46 @@
+---
+title: "Harrison Li"
+image: img/profile.jpg
+about:
+    template: solana
+    image-shape: round
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          href: www.linkedin.com/in/harrison-li-b7253a23a
+        - icon: github
+          text: GitHub
+          href: https://github.com/Harrisonlee0530
+        - icon: envelope
+          text: email
+          href: mailto:LiHoJyunHarrison@gmail.com
+---
+
+I am a highly motivated graduate student in Masters of Data Science \@ UBC with a strong foundation in physics and computational methods, interested in
+data science and computational modeling for solving real-world problems. My academic journey has equipped me with a diverse skill set spanning physics, mathematics, and programming, which I apply to tackle complex challenges. I am eager to contribute my analytical abilities and technical expertise to innovative projects while continuing to expand my knowledge and professional experience in my graduate studies.
+
+###  Education
+**University of British Columbia** | Vancouver, BC | MSc in Data Science | Aug 2025 - Present
+
+**University of British Columbia** | Vancouver, BC | BSc in Physics with Distinction | Aug 2022 - May 2025
+
+- GPA 84.7/100
+- Relevant Courseworks: Electromagnetism, Intermediate/Advanced Mechanics, Thermodynamics, Quantum Mechanics, General Relativity, Computational Physics, Statistical Mechanics, Applications of Quantum Mechanics, Mathematical Physics, Machine Learning for Physics and Astronomy, Astrophysics, Cosmology, Probability with Physical Applications, Applied Linear Algebra, Calculus IV
+
+- Dean's List in Junior year 2023--2024
+
+
+**Feng Chia University / San Jose State University** | Taichung, Taiwan
+Double Degree B.S. in Electrical Engineering | Aug 2020 - Jun 2022
+
+- GPA 4.1/4.3
+- Relevant Coursework: Calculus I--III, Linear Algebra, Ordinary Differential Equations, MATLAB programming, C programming
+
+- Transferred to UBC
+- Dean's List (Fall 2021, Spring 2021)
+- 4 scholarships for Academic Excellence
+- Awarded Certificate of Achievement for outstanding achievement and excellence during 2020-2022
+
+## Experience
+
+**Feng Chia University** | Teaching Assitant - 1st year Classical Mechanics | Sep 2021 - Jan 2022

@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Harrison's Website"
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Projects
+        href: projects/projects.qmd
+      - text: More
+        menu:
+          - more/kendama.qmd
+      - href: about.qmd
+        text: About Me
+
+  sidebar:
+    - id: projects
+      title: Projects Overview
+      style: floating
+      contents:
+        - projects/projects.qmd
+        - section: "Projects"
+          contents: 
+            - projects/project1.qmd
+    
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+      # - cosmo
+      # - brand
+    css: styles.css
+    toc: true
+
+
+

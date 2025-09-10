@@ -1,5 +1,0 @@
----
-title: "Projects Overview"
----
-
-A list of projects ...
