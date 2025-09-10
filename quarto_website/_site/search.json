@@ -1,16 +1,52 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Harrison Li",
+    "section": "",
+    "text": "I am a highly motivated graduate student in Masters of Data Science @ UBC with a strong foundation in physics and computational methods, interested in data science and computational modeling for solving real-world problems. My academic journey has equipped me with a diverse skill set spanning physics, mathematics, and programming, which I apply to tackle complex challenges. I am eager to contribute my analytical abilities and technical expertise to innovative projects while continuing to expand my knowledge and professional experience in my graduate studies."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Harrison Li",
+    "section": "Experience",
+    "text": "Experience\nFeng Chia University | Teaching Assitant - 1st year Classical Mechanics | Sep 2021 - Jan 2022"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "This is a Quarto website draft.\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "A list of projects …\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "Projects Overview"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "more/kendama.html",
+    "href": "more/kendama.html",
+    "title": "Kendama",
     "section": "",
-    "text": "Education\n2022–2025 Bachelor of Science in Physics University of British Columbia Vancouver, BC\n\nRelevant Coursework: Electromagnetism, Intermediate/Advanced Mechanics, Thermodynamics, Quantum Mechanics, General Relativity, Computational Physics, Statistical Mechanics, Applications of Quantum Mechanics, Mathematical Physics, Machine Learning for Physics and Astronomy, Astrophysics, Cosmology, Probability with Physical Applications, Applied Linear Algebra, Calculus IV\nDean’s List in Junior year 2023–2024\n\n2020–2022 Double Degree B.S. in Electrical Engineering (Transferred to UBC) Feng Chia University / San Jose State University Taichung, Taiwan\n\nRelevant Coursework: Calculus I–III, Linear Algebra, Ordinary Differential Equations, MATLAB programming, C programming\nAwarded Certificate of Achievement for outstanding achievement and excellence during 2020-2022\nDean’s List (Fall 2021, Spring 2021)\n4 scholarships for Academic Excellence"
+    "text": "Something fun  \n\n\n\n Back to top"
   }
 ]

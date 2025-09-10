@@ -1,0 +1,7 @@
+---
+title: "Kendama"
+---
+
+Something fun
+<!-- ## Introduction -->
+<!-- Kendama is a japanese traditional skill toy -->
