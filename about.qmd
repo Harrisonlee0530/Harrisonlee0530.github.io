@@ -7,7 +7,7 @@ about:
     links:
         - icon: linkedin
           text: LinkedIn
-          href: www.linkedin.com/in/harrison-l-b7253a23a
+          href: https://www.linkedin.com/in/harrison-l-b7253a23a
         - icon: github
           text: GitHub
           href: https://github.com/Harrisonlee0530
