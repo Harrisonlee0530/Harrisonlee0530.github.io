@@ -1,9 +1,10 @@
 ---
 title: "Kendama"
-image: "img/kendama.jpg"
+image: "../img/kendama.jpg"
 about:
     template: broadside
     image-shape: rounded
+    image-title: Terra Kendama - beech wood
 
 ---
 
