@@ -1,12 +1,13 @@
 ---
 title: "Kendama"
-image: "../img/kendama.jpg"
+# image: "../img/kendama.jpg"
 about:
     template: broadside
     image-shape: rounded
     image-title: Terra Kendama - beech wood
 
 ---
+<img src="../img/kendama.jpg" alt="Kendama Image" style="width: 25vw; border-radius: 10px;">
 
 # Introduction
 Kendama (けん玉 or 剣玉) is a traditional Japanese skill toy that has grown into an international sport, blending precision, creativity, and perseverance. At its core, the game involves catching a wooden ball (tama, 玉) on different parts of a spiked handle (ken, 剣), but the real challenge lies in mastering the countless tricks, combinations, and flows that players around the world continue to invent.
