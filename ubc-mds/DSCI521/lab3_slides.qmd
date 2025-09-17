@@ -1,0 +1,28 @@
+---
+title: "Habits"
+author: "John Doe"
+format: revealjs
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+## Code Chunk
+```{r, echo=TRUE}
+print("This is a sentence with some text.")
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
