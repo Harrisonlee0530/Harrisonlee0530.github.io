@@ -16,7 +16,7 @@ website:
       - href: mypw/index.qmd
         text: Home
       - text: Projects
-        href: projects/projects.qmd
+        href: mypw/projects/projects.qmd
       - text: More
         menu:
           - mypw/more/kendama.qmd
@@ -28,10 +28,10 @@ website:
       title: Projects Overview
       style: floating
       contents:
-        - projects/projects.qmd
+        - mypw/projects/projects.qmd
         - section: "Projects"
           contents: 
-            - projects/project1.qmd
+            - mypw/projects/project1.qmd
     
 
 format:
