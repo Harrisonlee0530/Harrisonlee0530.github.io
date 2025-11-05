@@ -46,11 +46,25 @@
     ]
   },
   {
-    "objectID": "japan_itinerary/miyasaki/contents.html",
-    "href": "japan_itinerary/miyasaki/contents.html",
+    "objectID": "japan_itinerary/miyazaki/contents.html#overview",
+    "href": "japan_itinerary/miyazaki/contents.html#overview",
     "title": "宮崎",
-    "section": "",
-    "text": "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles\nm = Map(\n  basemap=basemap_to_tiles(\n    basemaps.NASAGIBS.ModisTerraTrueColorCR, \"2017-04-08\"\n  ),\n  center=(52.204793, 360.121558),\n  zoom=4\n)\nm.add_layer(Marker(location=(52.204793, 360.121558)))\nm\n\n\n\n\n\n\n\n Back to top"
+    "section": "Overview",
+    "text": "Overview\nThis is an overview"
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/contents.html#map",
+    "href": "japan_itinerary/miyazaki/contents.html#map",
+    "title": "宮崎",
+    "section": "Map",
+    "text": "Map\nmap overview"
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/contents.html#data",
+    "href": "japan_itinerary/miyazaki/contents.html#data",
+    "title": "宮崎",
+    "section": "Data",
+    "text": "Data"
   },
   {
     "objectID": "mypw/projects/project1.html",
