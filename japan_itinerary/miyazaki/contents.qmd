@@ -32,7 +32,7 @@ m = leafmap.Map(width=800, height=500, center=miyazaki, zoom=10)
 m
 ```
 
-## Overview
+## 
 
 This is an overview
 

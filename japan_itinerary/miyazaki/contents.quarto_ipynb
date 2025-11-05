@@ -1,0 +1,77 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"宮崎\"\n",
+        "format: \n",
+        "  html:\n",
+        "    navbar: false\n",
+        "    sidebar:\n",
+        "      style: \"floating\"   # or \"docked\" / \"overlay\"\n",
+        "      title: \"宮崎 Map Info\"\n",
+        "      contents:\n",
+        "        - text: \"Overview\"\n",
+        "          href: \"#overview\"\n",
+        "        - text: \"Map\"\n",
+        "          href: \"#map\"\n",
+        "        - text: \"Data\"\n",
+        "          href: \"#data\"\n",
+        "---"
+      ],
+      "id": "464dc881"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: False\n",
+        "from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles, TileLayer\n",
+        "import leafmap.foliumap as leafmap\n",
+        "# m = Map(\n",
+        "#   basemap=basemap_to_tiles(\n",
+        "#     basemaps.NASAGIBS.ModisTerraTrueColorCR, \"2017-04-08\"\n",
+        "#   ),\n",
+        "#   center=(31.90856140083178, 131.42189403602256),\n",
+        "#   zoom=10\n",
+        "# )\n",
+        "\n",
+        "miyazaki = (31.90856140083178, 131.42189403602256)\n",
+        "m = leafmap.Map(width=800, height=500, center=miyazaki, zoom=10)\n",
+        "m"
+      ],
+      "id": "c27ecb60",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## \n",
+        "\n",
+        "This is an overview\n",
+        "\n",
+        "\n",
+        "## Map\n",
+        "\n",
+        "map overview\n",
+        "\n",
+        "## Data"
+      ],
+      "id": "ceef7978"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "dsci512",
+      "language": "python",
+      "display_name": "dsci512",
+      "path": "/Users/harrisonlee/Library/Jupyter/kernels/dsci512"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
