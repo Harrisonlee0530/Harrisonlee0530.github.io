@@ -35,22 +35,29 @@
     "text": "Introduction\nKendama (けん玉 or 剣玉) is a traditional Japanese skill toy that has grown into an international sport, blending precision, creativity, and perseverance. At its core, the game involves catching a wooden ball (tama, 玉) on different parts of a spiked handle (ken, 剣), but the real challenge lies in mastering the countless tricks, combinations, and flows that players around the world continue to invent.\nWhat makes Kendama special is the balance it strikes between skill, patience, and training. Every trick requires focus and control, and progress comes only through repeated practice and determination. The process is humbling — drops and misses are part of the journey — but with persistence, even the most difficult tricks become achievable.\nBeyond being a toy, Kendama is a discipline that cultivates concentration, resilience, and creativity. It is a community-driven sport where players of all levels can connect, share, and push one another to grow.\nI began practicing Kendama in December 2022, and over time I came to see it as more than just a skill toy. The deliberate repetition of movements, the quiet focus on balance, and the acceptance of failure as part of progress all resonated with me as a kind of meditation. Each missed catch is a reminder of patience, and each successful landing reflects persistence rewarded. In this way, Kendama has become not only a physical practice but also a philosophy of life, one that mirrors the mindset I bring to both academic and personal challenges.\n\n\nAchivements\n\nVan Jam 2025 - Casual Division, 1st Place\nVan Jam 2024 - Casual Division, 1st Place\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "mypw/projects/projects.html",
-    "href": "mypw/projects/projects.html",
-    "title": "Projects Overview",
+    "objectID": "mypw/projects/project1.html",
+    "href": "mypw/projects/project1.html",
+    "title": "Project 1",
     "section": "",
-    "text": "A list of projects …\n\n\n\n Back to top",
+    "text": "This is a Quarto website draft.\n\n\n\n Back to top",
     "crumbs": [
       "Projects",
-      "Projects Overview"
+      "Project 1"
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/contents.html#overview",
-    "href": "japan_itinerary/miyazaki/contents.html#overview",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSome random text\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/contents.html#section",
+    "href": "japan_itinerary/miyazaki/contents.html#section",
     "title": "宮崎",
-    "section": "Overview",
-    "text": "Overview\nThis is an overview"
+    "section": "",
+    "text": "This is an overview"
   },
   {
     "objectID": "japan_itinerary/miyazaki/contents.html#map",
@@ -67,22 +74,15 @@
     "text": "Data"
   },
   {
-    "objectID": "mypw/projects/project1.html",
-    "href": "mypw/projects/project1.html",
-    "title": "Project 1",
+    "objectID": "mypw/projects/projects.html",
+    "href": "mypw/projects/projects.html",
+    "title": "Projects Overview",
     "section": "",
-    "text": "This is a Quarto website draft.\n\n\n\n Back to top",
+    "text": "A list of projects …\n\n\n\n Back to top",
     "crumbs": [
       "Projects",
-      "Project 1"
+      "Projects Overview"
     ]
-  },
-  {
-    "objectID": "mypw/index.html",
-    "href": "mypw/index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSome random text\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "mypw/about.html",
