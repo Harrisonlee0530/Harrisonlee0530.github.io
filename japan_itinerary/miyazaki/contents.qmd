@@ -1,0 +1,44 @@
+---
+title: "宮崎"
+format: 
+  html:
+    navbar: false
+    sidebar:
+      style: "floating"   # or "docked" / "overlay"
+      title: "宮崎 Map Info"
+      contents:
+        - text: "Overview"
+          href: "#overview"
+        - text: "Map"
+          href: "#map"
+        - text: "Data"
+          href: "#data"
+---
+
+```{python}
+#| echo: False
+from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles, TileLayer
+import leafmap.foliumap as leafmap
+# m = Map(
+#   basemap=basemap_to_tiles(
+#     basemaps.NASAGIBS.ModisTerraTrueColorCR, "2017-04-08"
+#   ),
+#   center=(31.90856140083178, 131.42189403602256),
+#   zoom=10
+# )
+
+miyazaki = (31.90856140083178, 131.42189403602256)
+m = leafmap.Map(width=800, height=500, center=miyazaki, zoom=10)
+m
+```
+
+## Overview
+
+This is an overview
+
+
+## Map
+
+map overview
+
+## Data
