@@ -47,6 +47,8 @@ m
 #### [飫肥城下町周邊](food.qmd#飫肥城下町)
 #### [市區](food.qmd#市區)
 
+## 所有地點 [https://maps.app.goo.gl/DokaNAW5grPGD5cv7](https://maps.app.goo.gl/DokaNAW5grPGD5cv7)
+
 # 交通
 
 ::: {.callout-note collapse="false"}
