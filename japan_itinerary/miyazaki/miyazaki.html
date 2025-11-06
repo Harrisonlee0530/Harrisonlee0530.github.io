@@ -36,10 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ccd81253fefb92e9cd3f9eb5b5d87b54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-6bdd2aebeb936dcddaa5f935a5de481c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +79,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -97,6 +263,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">日本行</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
     </div>
       </div>
     <div class="sidebar-menu-container"> 
@@ -141,12 +310,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#地圖" id="toc-地圖" class="nav-link active" data-scroll-target="#地圖">地圖</a></li>
-  <li><a href="#景點" id="toc-景點" class="nav-link" data-scroll-target="#景點">景點</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li></ol></nav>
 <div class="quarto-title">
@@ -175,8 +344,8 @@ ul.task-list li input[type="checkbox"] {
 ※ <a href="https://www.gltjp.com/zh-hant/article/item/20236/">資料來源</a></p>
 <section id="地圖" class="level2">
 <h2 class="anchored" data-anchor-id="地圖">地圖</h2>
-<div id="45f708d2" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display" data-execution_count="2">
+<div id="2854f036" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="16">
 <iframe srcdoc="<!DOCTYPE html>
 <html>
 <head>
@@ -196,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_c22f9aa4326f5bc4eb680548b6a66feb {
+                #map_f0477de6c5401f873ef03642fd51016f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -237,14 +406,14 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_c22f9aa4326f5bc4eb680548b6a66feb&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_f0477de6c5401f873ef03642fd51016f&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_c22f9aa4326f5bc4eb680548b6a66feb = L.map(
-                &quot;map_c22f9aa4326f5bc4eb680548b6a66feb&quot;,
+            var map_f0477de6c5401f873ef03642fd51016f = L.map(
+                &quot;map_f0477de6c5401f873ef03642fd51016f&quot;,
                 {
                     center: [31.90856140083178, 131.42189403602256],
                     crs: L.CRS.EPSG3857,
@@ -260,13 +429,13 @@ ul.task-list li input[type="checkbox"] {
 
                 }
             );
-            L.control.scale().addTo(map_c22f9aa4326f5bc4eb680548b6a66feb);
+            L.control.scale().addTo(map_f0477de6c5401f873ef03642fd51016f);
 
             
 
         
     
-            var tile_layer_d820677e51bb11c9621efffc3686c3e5 = L.tileLayer(
+            var tile_layer_3a439fe329f21dea9c9b3c3a75f5a570 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -283,7 +452,7 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-            tile_layer_d820677e51bb11c9621efffc3686c3e5.addTo(map_c22f9aa4326f5bc4eb680548b6a66feb);
+            tile_layer_3a439fe329f21dea9c9b3c3a75f5a570.addTo(map_f0477de6c5401f873ef03642fd51016f);
         
     
             L.control.fullscreen(
@@ -293,11 +462,11 @@ ul.task-list li input[type="checkbox"] {
   &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;,
   &quot;forceSeparateButton&quot;: false,
 }
-            ).addTo(map_c22f9aa4326f5bc4eb680548b6a66feb);
+            ).addTo(map_f0477de6c5401f873ef03642fd51016f);
         
     
 
-            var geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b = {
+            var geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188 = {
   &quot;collapsed&quot;: true,
   &quot;position&quot;: &quot;topleft&quot;,
   &quot;defaultMarkGeocode&quot;: true,
@@ -308,53 +477,50 @@ ul.task-list li input[type="checkbox"] {
 };
 
             // note: geocoder name should start with lowercase
-            var geocoderName_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b = geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b[&quot;provider&quot;];
+            var geocoderName_geocoder_bcb9c0faa647091f862a7eaea3f39188 = geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188[&quot;provider&quot;];
 
-            var customGeocoder_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b = L.Control.Geocoder[ geocoderName_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b ](
-                geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b['providerOptions']
+            var customGeocoder_geocoder_bcb9c0faa647091f862a7eaea3f39188 = L.Control.Geocoder[ geocoderName_geocoder_bcb9c0faa647091f862a7eaea3f39188 ](
+                geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188['providerOptions']
             );
-            geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b[&quot;geocoder&quot;] = customGeocoder_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b;
+            geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188[&quot;geocoder&quot;] = customGeocoder_geocoder_bcb9c0faa647091f862a7eaea3f39188;
 
             L.Control.geocoder(
-                geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b
+                geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188
             ).on('markgeocode', function(e) {
-                var zoom = geocoderOpts_geocoder_f45a0177d1dac1a5ff6fd13d5fb5e87b['zoom'] || map_c22f9aa4326f5bc4eb680548b6a66feb.getZoom();
-                map_c22f9aa4326f5bc4eb680548b6a66feb.setView(e.geocode.center, zoom);
-            }).addTo(map_c22f9aa4326f5bc4eb680548b6a66feb);
+                var zoom = geocoderOpts_geocoder_bcb9c0faa647091f862a7eaea3f39188['zoom'] || map_f0477de6c5401f873ef03642fd51016f.getZoom();
+                map_f0477de6c5401f873ef03642fd51016f.setView(e.geocode.center, zoom);
+            }).addTo(map_f0477de6c5401f873ef03642fd51016f);
 
         
     
-            map_c22f9aa4326f5bc4eb680548b6a66feb.fitBounds(
+            map_f0477de6c5401f873ef03642fd51016f.fitBounds(
                 [[31.90856140083178, 131.42189403602256], [31.90856140083178, 131.42189403602256]],
                 {&quot;maxZoom&quot;: 11}
             );
         
     
-            var layer_control_7ac8c44fe55a75065e1c43690972403c_layers = {
+            var layer_control_9519ff7a345538076237717cbe76014b_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_d820677e51bb11c9621efffc3686c3e5,
+                    &quot;openstreetmap&quot; : tile_layer_3a439fe329f21dea9c9b3c3a75f5a570,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_7ac8c44fe55a75065e1c43690972403c = L.control.layers(
-                layer_control_7ac8c44fe55a75065e1c43690972403c_layers.base_layers,
-                layer_control_7ac8c44fe55a75065e1c43690972403c_layers.overlays,
+            let layer_control_9519ff7a345538076237717cbe76014b = L.control.layers(
+                layer_control_9519ff7a345538076237717cbe76014b_layers.base_layers,
+                layer_control_9519ff7a345538076237717cbe76014b_layers.overlays,
                 {
   &quot;position&quot;: &quot;topright&quot;,
   &quot;collapsed&quot;: true,
   &quot;autoZIndex&quot;: true,
 }
-            ).addTo(map_c22f9aa4326f5bc4eb680548b6a66feb);
+            ).addTo(map_f0477de6c5401f873ef03642fd51016f);
 
         
 </script>
 </html>" width="700" height="500" style="border:none !important;" "allowfullscreen"="" "webkitallowfullscreen"="" "mozallowfullscreen"=""></iframe>
 </div>
 </div>
-</section>
-<section id="景點" class="level2">
-<h2 class="anchored" data-anchor-id="景點"><a href="nature.qmd">景點</a></h2>
 
 
 </section>
@@ -362,6 +528,19 @@ ul.task-list li input[type="checkbox"] {
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
