@@ -32,6 +32,16 @@ website:
         - section: "Projects"
           contents: 
             - mypw/projects/project1.qmd
+
+    - id: japan-itinerary
+      title: 日本行
+      style: floating
+      contents:
+        - japan_itinerary/japan.qmd
+        - section: "宮崎"
+          contents: 
+            - japan_itinerary/miyazaki/miyazaki.qmd
+            - japan_itinerary/miyazaki/景點.qmd
     
 
 format:
