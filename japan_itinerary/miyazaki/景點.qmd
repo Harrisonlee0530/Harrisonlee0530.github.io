@@ -8,6 +8,24 @@ format:
 
 # 市區
 
+## [Direx Yoshimura ダイレックス 吉村店](https://maps.app.goo.gl/NvYETQAKTBRJAfXe7?g_st=ipc)
+
+::: {.callout}
+折扣店
+:::
+
+## [Hard Off Miyazaki Ichinomiya ハードオフ 宮崎一の宮店](https://maps.app.goo.gl/zEitLva3qa8mD9n26?g_st=ipc)
+
+::: {.callout}
+二手店
+:::
+
+## [アートハウスゲルボア](https://maps.app.goo.gl/NLSToosU9Z4ce6u4A?g_st=ipc)
+
+::: {.callout}
+畫具
+:::
+
 ## [西橘](https://maps.app.goo.gl/omc5EPuNghk825i36)
 
 ::: {.callout-note collapse="false"}
