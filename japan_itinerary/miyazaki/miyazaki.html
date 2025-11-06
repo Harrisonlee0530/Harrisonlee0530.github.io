@@ -391,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 ※ <a href="https://www.gltjp.com/zh-hant/article/item/20236/">資料來源</a></p>
 <section id="地圖" class="level2">
 <h2 class="anchored" data-anchor-id="地圖">地圖</h2>
-<div id="5fadcd38" class="cell" data-execution_count="1">
+<div id="b21dcf0f" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
 <iframe srcdoc="<!DOCTYPE html>
 <html>
@@ -412,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_365d4ed6e87ec4221013ecf0488fa6d4 {
+                #map_3b2305752f25b51d44eae4f77ec220ff {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -453,14 +453,14 @@ ul.task-list li input[type="checkbox"] {
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_365d4ed6e87ec4221013ecf0488fa6d4&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_3b2305752f25b51d44eae4f77ec220ff&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_365d4ed6e87ec4221013ecf0488fa6d4 = L.map(
-                &quot;map_365d4ed6e87ec4221013ecf0488fa6d4&quot;,
+            var map_3b2305752f25b51d44eae4f77ec220ff = L.map(
+                &quot;map_3b2305752f25b51d44eae4f77ec220ff&quot;,
                 {
                     center: [31.90856140083178, 131.42189403602256],
                     crs: L.CRS.EPSG3857,
@@ -476,13 +476,13 @@ ul.task-list li input[type="checkbox"] {
 
                 }
             );
-            L.control.scale().addTo(map_365d4ed6e87ec4221013ecf0488fa6d4);
+            L.control.scale().addTo(map_3b2305752f25b51d44eae4f77ec220ff);
 
             
 
         
     
-            var tile_layer_5ef4fd994abe2ee0ee062bcb7e9b4e48 = L.tileLayer(
+            var tile_layer_8a2d832df822513841882938132044e1 = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -499,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
             );
         
     
-            tile_layer_5ef4fd994abe2ee0ee062bcb7e9b4e48.addTo(map_365d4ed6e87ec4221013ecf0488fa6d4);
+            tile_layer_8a2d832df822513841882938132044e1.addTo(map_3b2305752f25b51d44eae4f77ec220ff);
         
     
             L.control.fullscreen(
@@ -509,11 +509,11 @@ ul.task-list li input[type="checkbox"] {
   &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;,
   &quot;forceSeparateButton&quot;: false,
 }
-            ).addTo(map_365d4ed6e87ec4221013ecf0488fa6d4);
+            ).addTo(map_3b2305752f25b51d44eae4f77ec220ff);
         
     
 
-            var geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf = {
+            var geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c = {
   &quot;collapsed&quot;: true,
   &quot;position&quot;: &quot;topleft&quot;,
   &quot;defaultMarkGeocode&quot;: true,
@@ -524,48 +524,48 @@ ul.task-list li input[type="checkbox"] {
 };
 
             // note: geocoder name should start with lowercase
-            var geocoderName_geocoder_482ba64ce28d8d02be152ef22533deaf = geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf[&quot;provider&quot;];
+            var geocoderName_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c = geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c[&quot;provider&quot;];
 
-            var customGeocoder_geocoder_482ba64ce28d8d02be152ef22533deaf = L.Control.Geocoder[ geocoderName_geocoder_482ba64ce28d8d02be152ef22533deaf ](
-                geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf['providerOptions']
+            var customGeocoder_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c = L.Control.Geocoder[ geocoderName_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c ](
+                geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c['providerOptions']
             );
-            geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf[&quot;geocoder&quot;] = customGeocoder_geocoder_482ba64ce28d8d02be152ef22533deaf;
+            geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c[&quot;geocoder&quot;] = customGeocoder_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c;
 
             L.Control.geocoder(
-                geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf
+                geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c
             ).on('markgeocode', function(e) {
-                var zoom = geocoderOpts_geocoder_482ba64ce28d8d02be152ef22533deaf['zoom'] || map_365d4ed6e87ec4221013ecf0488fa6d4.getZoom();
-                map_365d4ed6e87ec4221013ecf0488fa6d4.setView(e.geocode.center, zoom);
-            }).addTo(map_365d4ed6e87ec4221013ecf0488fa6d4);
+                var zoom = geocoderOpts_geocoder_cdd2eb8fd36cc4cf6ac953013172ba9c['zoom'] || map_3b2305752f25b51d44eae4f77ec220ff.getZoom();
+                map_3b2305752f25b51d44eae4f77ec220ff.setView(e.geocode.center, zoom);
+            }).addTo(map_3b2305752f25b51d44eae4f77ec220ff);
 
         
     
-            map_365d4ed6e87ec4221013ecf0488fa6d4.fitBounds(
+            map_3b2305752f25b51d44eae4f77ec220ff.fitBounds(
                 [[31.90856140083178, 131.42189403602256], [31.90856140083178, 131.42189403602256]],
                 {&quot;maxZoom&quot;: 11}
             );
         
     
-            var layer_control_b1b5cfedc210411a282dd653ac4546e5_layers = {
+            var layer_control_ad0bbd7ef577b06ebab555cf89f6340b_layers = {
                 base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_5ef4fd994abe2ee0ee062bcb7e9b4e48,
+                    &quot;openstreetmap&quot; : tile_layer_8a2d832df822513841882938132044e1,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_b1b5cfedc210411a282dd653ac4546e5 = L.control.layers(
-                layer_control_b1b5cfedc210411a282dd653ac4546e5_layers.base_layers,
-                layer_control_b1b5cfedc210411a282dd653ac4546e5_layers.overlays,
+            let layer_control_ad0bbd7ef577b06ebab555cf89f6340b = L.control.layers(
+                layer_control_ad0bbd7ef577b06ebab555cf89f6340b_layers.base_layers,
+                layer_control_ad0bbd7ef577b06ebab555cf89f6340b_layers.overlays,
                 {
   &quot;position&quot;: &quot;topright&quot;,
   &quot;collapsed&quot;: true,
   &quot;autoZIndex&quot;: true,
 }
-            ).addTo(map_365d4ed6e87ec4221013ecf0488fa6d4);
+            ).addTo(map_3b2305752f25b51d44eae4f77ec220ff);
 
         
 </script>
-</html>" width="700" height="500" style="border:none !important;" "allowfullscreen"="" "webkitallowfullscreen"="" "mozallowfullscreen"=""></iframe>
+</html>" width="400" height="300" style="border:none !important;" "allowfullscreen"="" "webkitallowfullscreen"="" "mozallowfullscreen"=""></iframe>
 </div>
 </div>
 </section>
@@ -594,6 +594,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="䶏戶周邊" class="level4">
 <h4 class="anchored" data-anchor-id="䶏戶周邊"><a href="../../japan_itinerary/miyazaki/food.html#䶏戶">䶏戶周邊</a></h4>
+</section>
+<section id="飫肥城下町周邊" class="level4">
+<h4 class="anchored" data-anchor-id="飫肥城下町周邊"><a href="../../japan_itinerary/miyazaki/food.html#飫肥城下町">飫肥城下町周邊</a></h4>
 </section>
 <section id="市區" class="level4">
 <h4 class="anchored" data-anchor-id="市區"><a href="../../japan_itinerary/miyazaki/food.html#市區">市區</a></h4>
