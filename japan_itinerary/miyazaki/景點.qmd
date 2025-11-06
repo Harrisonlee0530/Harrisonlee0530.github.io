@@ -3,6 +3,7 @@ title: 景點
 format:
     html:
         navbar: false
+        sidebar: japan-itinerary
 ---
 
 # 行程 A

@@ -2,11 +2,9 @@
 title: "宮崎"
 format:
   html:
-    theme: cosmo      # needed for sidebar visibility
     navbar: false      # optional
     sidebar: japan-itinerary
 ---
-
 
 宮崎縣位於九州東南部，東邊有美麗的海岸線，西邊有九州山地及霧島連峰等雄偉的山岳景觀。其中，能享受美麗的自然風光和熱帶島嶼氛圍的景點眾多，度假設施也相當充實，作為富有南國風情的旅遊勝地而深受海內外旅人的歡迎。
 
@@ -43,4 +41,3 @@ m = leafmap.Map(
 m
 ```
 
-## [景點](nature.qmd)

@@ -1,5 +1,9 @@
 ---
 title: 日本行
+format:
+    html:
+        navbar: false
+        sidebar: japan-itinerary
 ---
 
 - [宮崎](miyazaki/miyazaki.qmd)
