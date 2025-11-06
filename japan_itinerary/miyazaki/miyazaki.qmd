@@ -22,13 +22,6 @@ format:
 #| echo: False
 from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles, TileLayer
 import leafmap.foliumap as leafmap
-# m = Map(
-#   basemap=basemap_to_tiles(
-#     basemaps.NASAGIBS.ModisTerraTrueColorCR, "2017-04-08"
-#   ),
-#   center=(31.90856140083178, 131.42189403602256),
-#   zoom=10
-# )
 
 miyazaki = (31.90856140083178, 131.42189403602256)
 m = leafmap.Map(
@@ -41,3 +34,42 @@ m = leafmap.Map(
 m
 ```
 
+## 行程
+#### [星期一](星期一.qmd)
+#### [星期二](星期二.qmd)
+#### [星期三](星期三.qmd)
+#### [星期四](星期四.qmd)
+
+## 美食
+#### [高千穗峽周邊](food.qmd#高千穗峽周邊)
+#### [青島周邊](food.qmd#青島)
+#### [䶏戶周邊](food.qmd#䶏戶)
+#### [市區](food.qmd#市區)
+
+# 交通
+
+::: {.callout-note collapse="false"}
+宮崎當地交通票券推薦！「宮崎巴士一日券」
+現在中華航空每周皆有固定航班從台灣直飛宮崎，如果各位打算從宮崎機場進到市區、或是當天預計都靠公車代步，非常推薦購買這張外國遊客限定的「宮崎巴士一日券」，價格為1000元日幣/張，只要是「宮崎交通」的巴士都可以搭乘喔！購買「宮崎巴士一日券」時需出示護照（留學生也可以購買）。可以在機場的資訊櫃台、宮崎車站、宮崎市區內多間飯店及巴士總站購得。
+
+原文網址: https://kyushu.letsgojp.com/archives/609036/ © 樂吃購！日本 kyushu.letsgojp.com
+:::
+
+::: {.callout-note collapse="false"}
+於宮崎市觀光時，推薦您搭乘連接宮崎車站和市中心的「GRUPPI」巴士。這些可愛的黃色或橙色 GRUPPI 巴士大約每12分鐘一班，從上午10:30左右開始運行於市中心。每趟車程只需100日圓，且可用現金或交通IC卡支付。歡迎搭乘！
+
+如欲了解「GRUPPI」搭乘地點及時刻表等資訊，請參閱[網站](https://www.miyazaki-city.tourism.or.jp/traffic/12268)
+:::
+
+
+## 資料來源
+- [https://www.kanko-miyazaki.jp/zh-TW](https://www.kanko-miyazaki.jp/zh-TW)
+- [https://www.miyazaki-city.tourism.or.jp/zh_TW](https://www.miyazaki-city.tourism.or.jp/zh_TW)
+- [https://takachiho-kanko.info/?stt_lang=zh-TW](https://takachiho-kanko.info/?stt_lang=zh-TW)
+- [https://kyushu.letsgojp.com/archives/537083/](https://kyushu.letsgojp.com/archives/537083/)
+- [https://littlebeartrips.com/miyazakiken-travel-spot/](https://littlebeartrips.com/miyazakiken-travel-spot/)
+- [https://www.japan.travel/en/destinations/kyushu/miyazaki/](https://www.japan.travel/en/destinations/kyushu/miyazaki/)
+- [https://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html](https://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html)
+- [https://kyushu.letsgojp.com/archives/609036/](https://kyushu.letsgojp.com/archives/609036/)
+- [https://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch](https://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch)
+- [https://www.gltjp.com/zh-hant/article/item/20285/](https://www.gltjp.com/zh-hant/article/item/20285/)

@@ -41,7 +41,14 @@ website:
         - section: "宮崎"
           contents: 
             - japan_itinerary/miyazaki/miyazaki.qmd
+            - section: "行程"
+              contents: 
+              - japan_itinerary/miyazaki/星期一.qmd
+              - japan_itinerary/miyazaki/星期二.qmd
+              - japan_itinerary/miyazaki/星期三.qmd
+              - japan_itinerary/miyazaki/星期四.qmd
             - japan_itinerary/miyazaki/景點.qmd
+            - japan_itinerary/miyazaki/food.qmd
     
 
 format:
