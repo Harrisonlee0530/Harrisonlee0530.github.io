@@ -72,7 +72,9 @@ format:
 
 
 # 餐廳
+
 ## 高千穗峽周邊
+
 ### [とんかつ峯](https://maps.app.goo.gl/i1o7pJPsYH75pD1Z7)
 
 ::: {.callout}
@@ -106,6 +108,7 @@ format:
 
 
 ## 青島周邊
+
 #### [tabelog](https://tabelog.com/tw/miyazaki/A4501/A450101/R69/rstLst/?SrtT=rt&railroad=true)
 
 ### [漁師の牡蠣小屋](https://maps.app.goo.gl/4sssk1SZEZHDdt7A9)

@@ -385,10 +385,10 @@ window.Quarto = {
   <li><a href="#おのころ池" id="toc-おのころ池" class="nav-link" data-scroll-target="#おのころ池">おのころ池</a></li>
   <li><a href="#月形" id="toc-月形" class="nav-link" data-scroll-target="#月形">月形</a></li>
   <li><a href="#鬼八の力石" id="toc-鬼八の力石" class="nav-link" data-scroll-target="#鬼八の力石">鬼八の力石</a></li>
-  </ul></li>
   <li><a href="#高千穗神社" id="toc-高千穗神社" class="nav-link" data-scroll-target="#高千穗神社">高千穗神社</a>
   <ul class="collapse">
   <li><a href="#高千穗美食" id="toc-高千穗美食" class="nav-link" data-scroll-target="#高千穗美食">＃高千穗美食</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -533,9 +533,8 @@ window.Quarto = {
 </div>
 </section>
 </section>
-</section>
-<section id="高千穗神社" class="level1">
-<h1><a href="https://maps.app.goo.gl/4wQPUaoy82D3Ar6FA">高千穗神社</a></h1>
+<section id="高千穗神社" class="level2">
+<h2 class="anchored" data-anchor-id="高千穗神社"><a href="https://maps.app.goo.gl/4wQPUaoy82D3Ar6FA">高千穗神社</a></h2>
 <ul>
 <li>(從高千穗峽步行20分鐘)</li>
 </ul>
@@ -609,6 +608,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="高千穗美食"><a href="../../japan_itinerary/miyazaki/food.html#高千穗峽周邊">＃高千穗美食</a></h3>
 
 
+</section>
 </section>
 </section>
 
@@ -698,7 +698,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Harrisonlee0530\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

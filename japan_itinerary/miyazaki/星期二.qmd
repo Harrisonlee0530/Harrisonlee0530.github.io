@@ -77,7 +77,7 @@ format:
 :::
 
 
-# [高千穗神社](https://maps.app.goo.gl/4wQPUaoy82D3Ar6FA) 
+## [高千穗神社](https://maps.app.goo.gl/4wQPUaoy82D3Ar6FA) 
 - (從高千穗峽步行20分鐘)
 
 ::: {.callout-note collapse="false"}
