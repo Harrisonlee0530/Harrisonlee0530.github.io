@@ -25,8 +25,8 @@ import leafmap.foliumap as leafmap
 
 miyazaki = (31.90856140083178, 131.42189403602256)
 m = leafmap.Map(
-  width=700, 
-  height=500, 
+  width=400, 
+  height=300, 
   center=miyazaki, 
   zoom=11,
   draw_control=False,
@@ -44,6 +44,7 @@ m
 #### [高千穗峽周邊](food.qmd#高千穗峽周邊)
 #### [青島周邊](food.qmd#青島)
 #### [䶏戶周邊](food.qmd#䶏戶)
+#### [飫肥城下町周邊](food.qmd#飫肥城下町)
 #### [市區](food.qmd#市區)
 
 # 交通

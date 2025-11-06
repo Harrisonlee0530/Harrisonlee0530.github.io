@@ -25,7 +25,7 @@ data science and computational modeling for solving real-world problems. My acad
 **University of British Columbia** | Vancouver, BC | BSc in Physics with Distinction | Aug 2022 - May 2025
 
 - GPA 84.7/100
-- Relevant Courseworks: Electromagnetism, Intermediate/Advanced Mechanics, Thermodynamics, Quantum Mechanics, General Relativity, Computational Physics, Statistical Mechanics, Applications of Quantum Mechanics, Mathematical Physics, Machine Learning for Physics and Astronomy, Astrophysics, Cosmology, Probability with Physical Applications, Applied Linear Algebra, Calculus IV
+- Relevant Courseworks: Electromagnetism, Intermediate/Advanced Mechanics, Thermodynamics, Quantum Mechanics, General Relativity, Computational Physics, Statistical Mechanics, Applications of Quantum Mechanics (Perturbation Theory), Mathematical Physics, Machine Learning for Physics and Astronomy, Astrophysics, Cosmology, Probability with Physical Applications, Applied Linear Algebra, Calculus IV
 
 - Dean's List in Junior year 2023--2024
 
@@ -34,7 +34,7 @@ data science and computational modeling for solving real-world problems. My acad
 Double Degree B.S. in Electrical Engineering | Aug 2020 - Jun 2022
 
 - GPA 4.1/4.3
-- Relevant Coursework: Calculus I--III, Linear Algebra, Ordinary Differential Equations, MATLAB programming, C programming
+- Relevant Courseworks: Calculus I--III, Linear Algebra, Ordinary Differential Equations, MATLAB programming, C programming
 
 - Transferred to UBC
 - Dean's List (Fall 2021, Spring 2021)
