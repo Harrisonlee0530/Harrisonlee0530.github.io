@@ -6,4 +6,12 @@ format:
         sidebar: japan-itinerary
 ---
 
+# 地點
+
+## 九州
 - [宮崎](miyazaki/miyazaki.qmd)
+
+
+::: {.callout-tip}
+建議使用平板或筆電瀏覽網頁以獲得最佳使用者體驗
+:::
