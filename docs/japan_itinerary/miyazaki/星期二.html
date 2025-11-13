@@ -422,10 +422,10 @@ window.Quarto = {
 <section id="交通" class="level1">
 <h1>交通</h1>
 <ul>
-<li><a href="https://maps.app.goo.gl/RB42Ayo3h4i3Kt7L7">08:00 到機場 先去高千穗天照鐵道</a> (～3小時40分鐘)</li>
-<li>12:00 到 <a href="#高千穂峡">高千穂峡</a></li>
+<li><a href="https://maps.app.goo.gl/dSdQ5oq9SxmEzNyd8">07:40 從飯店出發 先去高千穗天照鐵道</a> (～3小時30分鐘)</li>
+<li>11:20 到 <a href="#高千穂峡">高千穂峡</a></li>
 <li>下午05:30 前到<a href="https://maps.app.goo.gl/CXRTde7F7o8Kx43P9">高千穂公車中心</a></li>
-<li>搭<a href="https://maps.app.goo.gl/Qhxwqfhovw11Ad657">回程最後一班</a> (20:30 到)<br>
+<li>搭<a href="https://maps.app.goo.gl/wPagjBexJ5xJKz1y7">回程最後一班</a> (20:30 到)<br>
 回程班次出發時間 下午3:40, 4:25, 5:30</li>
 </ul>
 </section>
@@ -698,7 +698,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Harrisonlee0530\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

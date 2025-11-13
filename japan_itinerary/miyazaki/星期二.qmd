@@ -8,10 +8,10 @@ format:
 
 # [高千穂地區](https://takachiho-kanko.info/?stt_lang=zh-TW)
 # 交通
-- [08:00 到機場 先去高千穗天照鐵道](https://maps.app.goo.gl/RB42Ayo3h4i3Kt7L7) (～3小時40分鐘)
-- 12:00 到 [高千穂峡](#高千穂峡)
+- [07:40 從飯店出發 先去高千穗天照鐵道](https://maps.app.goo.gl/dSdQ5oq9SxmEzNyd8) (～3小時30分鐘)
+- 11:20 到 [高千穂峡](#高千穂峡)
 - 下午05:30 前到[高千穂公車中心](https://maps.app.goo.gl/CXRTde7F7o8Kx43P9)
-- 搭[回程最後一班](https://maps.app.goo.gl/Qhxwqfhovw11Ad657) (20:30 到) \
+- 搭[回程最後一班](https://maps.app.goo.gl/wPagjBexJ5xJKz1y7) (20:30 到) \
 回程班次出發時間 下午3:40, 4:25, 5:30
 
 # [高千穗天照鐵道（高千穂あまてらす鉄道）](https://maps.app.goo.gl/ktHUAsJE19jLx6aL9)

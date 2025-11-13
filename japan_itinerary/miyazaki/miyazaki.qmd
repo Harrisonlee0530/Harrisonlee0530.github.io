@@ -2,7 +2,7 @@
 title: "宮崎"
 format:
   html:
-    navbar: false      # optional
+    navbar: false
     sidebar: japan-itinerary
 ---
 
@@ -33,6 +33,14 @@ m = leafmap.Map(
   measure_control=False)
 m
 ```
+
+## 住宿
+#### [Prince Smart Inn Miyazaki](https://maps.app.goo.gl/AQZhgdkH6G7ZYyUS9)
+
+- 星期一[公車路線](https://maps.app.goo.gl/Q5vwnZTMNJ5i9C569)
+- 星期五 $07:00$ [去機場](https://maps.app.goo.gl/2tQNjdvXNhpaZZkT9)
+- $10:30$ 起飛
+
 
 ## 行程
 #### [星期一](星期一.qmd)

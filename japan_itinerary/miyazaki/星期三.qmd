@@ -9,14 +9,13 @@ format:
 
 ## 交通
 
-::: {.callout-tip collapse="true"}
+::: {.callout-tip collapse="false"}
 ## 方案 A 出發 $\to$ 青島神社 $\to$ 飫肥城下町 $\to$ 返回
 **出發**
 
-$07:30, \yen 300 \sim \yen 500$ \
-從[JR宮崎站](https://maps.app.goo.gl/a7BntKtHwC7Ntq928)搭乘電車約30分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58) \
-或從[JR宮崎機場站](https://maps.app.goo.gl/RXm2AqhpfXzjKfsy9)搭乘電車約50分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58)
-- 走15分鐘到[青島神社](#青島神社)
+- $07:40$ 出發 \
+- [公車路線](https://maps.app.goo.gl/a1ScVYiUhupH61Z76)
+- $08:40$ 到[青島神社](#青島神社)
 
 $09:00\quad$ 到[青島神社](#青島神社)
 - 在[青島](#青島) 附近活動
@@ -25,35 +24,33 @@ $12:20\quad$ [出發](https://maps.app.goo.gl/xFFmiKdKgCJRPJmR9) 去 [飫肥城�
 
 $\ldots$ [^1]
 
-回[市區](景點.qmd#市區)逛
+- 回[市區](景點.qmd#市區)逛
+- [公車](https://maps.app.goo.gl/o34eBzL7SNW9xLyB9)
 :::
 
 ::: {.callout-note collapse="true"}
 ## 方案 B 出發 $\to$ 鵜戶神宮 $\to$ 青島神社 $\to$ 返回
 [參照](https://travistotravel.com/2024/09/20/宮崎自由行鵜戶神宮/)
 
-$10:00\quad$ [出發](https://maps.app.goo.gl/fdpzA1TK2aauDJ669) \
+$09:30\quad$ [出發](https://maps.app.goo.gl/L7ZWJEqdx867fwwh6) \
 $11:20\quad$ 到[鵜戶神宮](鵜戶神宮) \
 $13:00\quad$ [出發](https://maps.app.goo.gl/yGYHajWdLB5SzEWx8) \
 $14:10\quad$ 到[青島神社](#青島神社) \
 
 $\ldots$ [^1]
 
-回[市區](景點.qmd#市區)逛
+- 回[市區](景點.qmd#市區)逛
+- [公車](https://maps.app.goo.gl/mnVhRm3Bs9MtMhtZ7)
 :::
 
 
 ::: {.callout-warning collapse="true"}
 ## 方案 C 出發 $\to$ 青島神社 $\to$ 日南太陽花園(週三公休) $\to$ 鵜戶神宮 $\to$ 返回
 
-- $07:30, \yen 300 \sim \yen 500$ \
-從[JR宮崎站](https://maps.app.goo.gl/a7BntKtHwC7Ntq928)搭乘電車約30分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58) \
-或從[JR宮崎機場站](https://maps.app.goo.gl/RXm2AqhpfXzjKfsy9)搭乘電車約50分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58)
-- 走15分鐘到
+- $07:40$ 出發 \
+- [公車路線](https://maps.app.goo.gl/a1ScVYiUhupH61Z76)
+- $08:40$ 到[青島神社](#青島神社)
 
-[青島神社](#青島神社)
-
-- $09:00$ 到[青島神社](#青島神社)
 - 在[青島](#青島)待 $3$ 小時 $+$ 吃午餐
 - $12:20$ 出發去 [日南太陽花園](#日南太陽花園)
 - 搭[30分鐘公車再步行25分鐘](https://maps.app.goo.gl/moB197NHNJYDoS1FA) $\sim\yen 1000$
@@ -66,7 +63,7 @@ $\ldots$ [^1]
 
 [鵜戶神宮](鵜戶神宮) 待 $1$ 小時
 
-**[下午 04:32 返回](https://maps.app.goo.gl/pjxYpR7ye3p9o9GJ6)** $\sim 1$ 小時, $\sim\yen 1400$
+**[下午 04:32 返回](https://maps.app.goo.gl/r4RKMYwMzmkKD6Ka6)** $\sim 1$ 小時, $\sim\yen 1550$
 
 :::
 
@@ -74,19 +71,15 @@ $\ldots$ [^1]
 ## 方案 D 出發 $\to$ 青島神社 $\to$ 返回
 **出發**
 
-- $07:30, \yen 300 \sim \yen 500$ \
-從[JR宮崎站](https://maps.app.goo.gl/a7BntKtHwC7Ntq928)搭乘電車約30分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58) \
-或從[JR宮崎機場站](https://maps.app.goo.gl/RXm2AqhpfXzjKfsy9)搭乘電車約50分鐘到[JR青島站](https://maps.app.goo.gl/fni365QE2KvYBHf58)
-- 走15分鐘到
-
-[青島神社](#青島神社)
-
-- $09:00$ 到[青島神社](#青島神社)
+- $07:40$ 出發 \
+- [公車路線](https://maps.app.goo.gl/a1ScVYiUhupH61Z76)
+- $08:40$ 到[青島神社](#青島神社)
 - 在[青島](#青島) 附近活動
 
 $\ldots$ [^1]
 
-回[市區](景點.qmd#市區)逛
+- 回[市區](景點.qmd#市區)逛
+- [公車](https://maps.app.goo.gl/mnVhRm3Bs9MtMhtZ7)
 :::
 
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>宮崎</title>
+<title>Tic Tac Toe in Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -75,35 +110,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -279,7 +285,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      日本行
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -316,7 +324,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../japan_itinerary/miyazaki/miyazaki.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../japan_itinerary/miyazaki/miyazaki.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">宮崎</span></a>
   </div>
 </li>
@@ -379,15 +387,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#地圖" id="toc-地圖" class="nav-link active" data-scroll-target="#地圖">地圖</a></li>
-  <li><a href="#住宿" id="toc-住宿" class="nav-link" data-scroll-target="#住宿">住宿</a></li>
-  <li><a href="#行程" id="toc-行程" class="nav-link" data-scroll-target="#行程">行程</a></li>
-  <li><a href="#美食" id="toc-美食" class="nav-link" data-scroll-target="#美食">美食</a></li>
-  <li><a href="#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7" id="toc-所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7" class="nav-link" data-scroll-target="#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7">所有地點 https://maps.app.goo.gl/DokaNAW5grPGD5cv7</a></li>
-  <li><a href="#交通" id="toc-交通" class="nav-link" data-scroll-target="#交通">交通</a>
-  <ul class="collapse">
-  <li><a href="#資料來源" id="toc-資料來源" class="nav-link" data-scroll-target="#資料來源">資料來源</a></li>
-  </ul></li>
+  <li><a href="#tic-tac-toe-pure-python" id="toc-tic-tac-toe-pure-python" class="nav-link active" data-scroll-target="#tic-tac-toe-pure-python">🕹️ Tic Tac Toe (Pure Python)</a></li>
   </ul>
 </nav>
     </div>
@@ -395,9 +395,9 @@ window.Quarto = {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li><li class="breadcrumb-item"><a href="../../japan_itinerary/miyazaki/miyazaki.html">宮崎</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">宮崎</h1>
+<h1 class="title">Tic Tac Toe in Python</h1>
 </div>
 
 
@@ -414,292 +414,80 @@ window.Quarto = {
 </header>
 
 
-<p>宮崎縣位於九州東南部，東邊有美麗的海岸線，西邊有九州山地及霧島連峰等雄偉的山岳景觀。其中，能享受美麗的自然風光和熱帶島嶼氛圍的景點眾多，度假設施也相當充實，作為富有南國風情的旅遊勝地而深受海內外旅人的歡迎。</p>
-<p>宮崎縣還被譽為日本神話的故鄉，有許多流傳著古老神話及傳說的景點，可以領略到日本歷史和傳統文化的獨特魅力。</p>
-<p>宮崎縣是日本最古老的史書《古事記》和《日本書紀》中所描述的「日向神話」的舞台。 在「日向神話」的一開始就描述了關於天神自眾神之國降臨到高千穗的場景。在被稱為「神話故鄉」的高千穂和青島等著名景點，可以欣賞到仙氣滿滿，充滿神秘氛圍的大自然景觀。</p>
-<p>一年四季氣候溫暖宜人的宮崎縣，除了盛產芒果以外，以宮崎牛為代表的品牌牛肉、豬肉、地雞等美味食材也享譽全日本。</p>
-<p>※《古事記》和《日本書紀》是記載日本神話、日本古代史的重要史籍 (<a href="https://www.gltjp.com/zh-hant/directory/item/15365/">詳細資訊</a>)。<br>
-※ <a href="https://www.gltjp.com/zh-hant/article/item/20236/">資料來源</a></p>
-<section id="地圖" class="level2">
-<h2 class="anchored" data-anchor-id="地圖">地圖</h2>
-<div id="34af90f6" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display" data-execution_count="1">
-<iframe srcdoc="<!DOCTYPE html>
-<html>
-<head>
+<section id="tic-tac-toe-pure-python" class="level1">
+<h1>🕹️ Tic Tac Toe (Pure Python)</h1>
+<p>This Tic Tac Toe game runs <strong>entirely in your browser</strong> using Python via <strong>Pyodide</strong>. You can click the cells to play — no server, no backend, works on <strong>GitHub Pages</strong>!</p>
+<hr>
+<div id="980c9337" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> HTML, display</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Game state</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>board <span class="op">=</span> [<span class="st">""</span>] <span class="op">*</span> <span class="dv">9</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>current <span class="op">=</span> <span class="st">"X"</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>winner <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> check_win():</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    combos <span class="op">=</span> [(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>),(<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>),(<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>),</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>              (<span class="dv">0</span>,<span class="dv">3</span>,<span class="dv">6</span>),(<span class="dv">1</span>,<span class="dv">4</span>,<span class="dv">7</span>),(<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">8</span>),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>              (<span class="dv">0</span>,<span class="dv">4</span>,<span class="dv">8</span>),(<span class="dv">2</span>,<span class="dv">4</span>,<span class="dv">6</span>)]</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> a,b,c <span class="kw">in</span> combos:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> board[a] <span class="kw">and</span> board[a] <span class="op">==</span> board[b] <span class="op">==</span> board[c]:</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> board[a]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">all</span>(board):</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"Draw"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> play(i):</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> current, winner</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> winner <span class="kw">or</span> board[i]:</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    board[i] <span class="op">=</span> current</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> check_win()</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> winner:</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        current <span class="op">=</span> <span class="st">"O"</span> <span class="cf">if</span> current <span class="op">==</span> <span class="st">"X"</span> <span class="cf">else</span> <span class="st">"X"</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    render()</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> reset():</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">global</span> board, current, winner</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    board <span class="op">=</span> [<span class="st">""</span>] <span class="op">*</span> <span class="dv">9</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    current <span class="op">=</span> <span class="st">"X"</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    render()</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> render():</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Build HTML board</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    cells <span class="op">=</span> <span class="st">""</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i, val <span class="kw">in</span> <span class="bu">enumerate</span>(board):</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>        mark <span class="op">=</span> val <span class="kw">or</span> <span class="st">"&amp;nbsp;"</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        cells <span class="op">+=</span> <span class="ss">f'&lt;button onclick="pyscript.runPython(`play(</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">)`)" '</span> <span class="op">\</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>                 <span class="ss">f'style="width:100px;height:100px;font-size:40px;margin:3px;"&gt;</span><span class="sc">{</span>mark<span class="sc">}</span><span class="ss">&lt;/button&gt;'</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i <span class="op">%</span> <span class="dv">3</span> <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>            cells <span class="op">+=</span> <span class="st">"&lt;br&gt;"</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    status <span class="op">=</span> <span class="ss">f"&lt;h3&gt;Turn: </span><span class="sc">{</span>current<span class="sc">}</span><span class="ss">&lt;/h3&gt;"</span> <span class="cf">if</span> <span class="kw">not</span> winner <span class="cf">else</span> <span class="ss">f"&lt;h3&gt;</span><span class="sc">{</span><span class="st">'Draw!'</span> <span class="cf">if</span> winner<span class="op">==</span><span class="st">'Draw'</span> <span class="cf">else</span> <span class="ss">f'Winner: </span><span class="sc">{</span>winner<span class="sc">}</span><span class="ss">'</span><span class="sc">}</span><span class="ss">&lt;/h3&gt;"</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    html <span class="op">=</span> <span class="ss">f"""</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">    &lt;div style='text-align:center;'&gt;</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">      </span><span class="sc">{</span>cells<span class="sc">}</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">      </span><span class="sc">{</span>status<span class="sc">}</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">      &lt;button onclick="pyscript.runPython('reset()')" style="margin-top:10px;"&gt;Reset&lt;/button&gt;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="ss">    &lt;/div&gt;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">    """</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    display(HTML(html))</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Initial render</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>render()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+
+    <div style="text-align:center;">
+      <button onclick="pyscript.runPython(`play(0)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(1)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(2)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><br><button onclick="pyscript.runPython(`play(3)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(4)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(5)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><br><button onclick="pyscript.runPython(`play(6)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(7)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><button onclick="pyscript.runPython(`play(8)`)" style="width:100px;height:100px;font-size:40px;margin:3px;">&nbsp;</button><br>
+      <h3 class="anchored" data-anchor-id="tic-tac-toe-pure-python">Turn: X</h3>
+      <button onclick="pyscript.runPython('reset()')" style="margin-top:10px;">Reset</button>
+    </div>
     
-    <meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; />
-    <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;></script>
-    <script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;></script>
-    <script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;></script>
-    <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;></script>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/>
-    
-            <meta name=&quot;viewport&quot; content=&quot;width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
-            <style>
-                #map_350ad45dce10625d4afea3c8dadcb002 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            </style>
-
-            <style>html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            </style>
-
-            <style>#map {
-                position:absolute;
-                top:0;
-                bottom:0;
-                right:0;
-                left:0;
-                }
-            </style>
-
-            <script>
-                L_NO_TOUCH = false;
-                L_DISABLE_3D = false;
-            </script>
-
-        
-    <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.min.js&quot;></script>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.css&quot;/>
-    <script src=&quot;https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js&quot;></script>
-    <link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css&quot;/>
-</head>
-<body>
-    
-    
-            <div class=&quot;folium-map&quot; id=&quot;map_350ad45dce10625d4afea3c8dadcb002&quot; ></div>
-        
-</body>
-<script>
-    
-    
-            var map_350ad45dce10625d4afea3c8dadcb002 = L.map(
-                &quot;map_350ad45dce10625d4afea3c8dadcb002&quot;,
-                {
-                    center: [31.90856140083178, 131.42189403602256],
-                    crs: L.CRS.EPSG3857,
-                    ...{
-  &quot;zoom&quot;: 11,
-  &quot;zoomControl&quot;: true,
-  &quot;preferCanvas&quot;: false,
-  &quot;drawControl&quot;: false,
-  &quot;measureControl&quot;: false,
-  &quot;drawExport&quot;: false,
-  &quot;layersControl&quot;: true,
-}
-
-                }
-            );
-            L.control.scale().addTo(map_350ad45dce10625d4afea3c8dadcb002);
-
-            
-
-        
-    
-            var tile_layer_7b06552b866ce4fffb302dad74ee198e = L.tileLayer(
-                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
-                {
-  &quot;minZoom&quot;: 0,
-  &quot;maxZoom&quot;: 24,
-  &quot;maxNativeZoom&quot;: 24,
-  &quot;noWrap&quot;: false,
-  &quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;,
-  &quot;subdomains&quot;: &quot;abc&quot;,
-  &quot;detectRetina&quot;: false,
-  &quot;tms&quot;: false,
-  &quot;opacity&quot;: 1,
-}
-
-            );
-        
-    
-            tile_layer_7b06552b866ce4fffb302dad74ee198e.addTo(map_350ad45dce10625d4afea3c8dadcb002);
-        
-    
-            L.control.fullscreen(
-                {
-  &quot;position&quot;: &quot;topleft&quot;,
-  &quot;title&quot;: &quot;Full Screen&quot;,
-  &quot;titleCancel&quot;: &quot;Exit Full Screen&quot;,
-  &quot;forceSeparateButton&quot;: false,
-}
-            ).addTo(map_350ad45dce10625d4afea3c8dadcb002);
-        
-    
-
-            var geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a = {
-  &quot;collapsed&quot;: true,
-  &quot;position&quot;: &quot;topleft&quot;,
-  &quot;defaultMarkGeocode&quot;: true,
-  &quot;zoom&quot;: 11,
-  &quot;provider&quot;: &quot;nominatim&quot;,
-  &quot;providerOptions&quot;: {
-},
-};
-
-            // note: geocoder name should start with lowercase
-            var geocoderName_geocoder_adc6e189c7118f8124f6d488833b3d9a = geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a[&quot;provider&quot;];
-
-            var customGeocoder_geocoder_adc6e189c7118f8124f6d488833b3d9a = L.Control.Geocoder[ geocoderName_geocoder_adc6e189c7118f8124f6d488833b3d9a ](
-                geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a['providerOptions']
-            );
-            geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a[&quot;geocoder&quot;] = customGeocoder_geocoder_adc6e189c7118f8124f6d488833b3d9a;
-
-            L.Control.geocoder(
-                geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a
-            ).on('markgeocode', function(e) {
-                var zoom = geocoderOpts_geocoder_adc6e189c7118f8124f6d488833b3d9a['zoom'] || map_350ad45dce10625d4afea3c8dadcb002.getZoom();
-                map_350ad45dce10625d4afea3c8dadcb002.setView(e.geocode.center, zoom);
-            }).addTo(map_350ad45dce10625d4afea3c8dadcb002);
-
-        
-    
-            map_350ad45dce10625d4afea3c8dadcb002.fitBounds(
-                [[31.90856140083178, 131.42189403602256], [31.90856140083178, 131.42189403602256]],
-                {&quot;maxZoom&quot;: 11}
-            );
-        
-    
-            var layer_control_d382adebe53647256b78f7e26ea7550e_layers = {
-                base_layers : {
-                    &quot;openstreetmap&quot; : tile_layer_7b06552b866ce4fffb302dad74ee198e,
-                },
-                overlays :  {
-                },
-            };
-            let layer_control_d382adebe53647256b78f7e26ea7550e = L.control.layers(
-                layer_control_d382adebe53647256b78f7e26ea7550e_layers.base_layers,
-                layer_control_d382adebe53647256b78f7e26ea7550e_layers.overlays,
-                {
-  &quot;position&quot;: &quot;topright&quot;,
-  &quot;collapsed&quot;: true,
-  &quot;autoZIndex&quot;: true,
-}
-            ).addTo(map_350ad45dce10625d4afea3c8dadcb002);
-
-        
-</script>
-</html>" width="400" height="300" style="border:none !important;" "allowfullscreen"="" "webkitallowfullscreen"="" "mozallowfullscreen"=""></iframe>
 </div>
 </div>
-</section>
-<section id="住宿" class="level2">
-<h2 class="anchored" data-anchor-id="住宿">住宿</h2>
-<section id="prince-smart-inn-miyazaki" class="level4">
-<h4 class="anchored" data-anchor-id="prince-smart-inn-miyazaki"><a href="https://maps.app.goo.gl/AQZhgdkH6G7ZYyUS9">Prince Smart Inn Miyazaki</a></h4>
-<ul>
-<li>星期一<a href="https://maps.app.goo.gl/Q5vwnZTMNJ5i9C569">公車路線</a></li>
-<li>星期五 <span class="math inline">\(07:00\)</span> <a href="https://maps.app.goo.gl/2tQNjdvXNhpaZZkT9">去機場</a></li>
-<li><span class="math inline">\(10:30\)</span> 起飛</li>
-</ul>
-</section>
-</section>
-<section id="行程" class="level2">
-<h2 class="anchored" data-anchor-id="行程">行程</h2>
-<section id="星期一" class="level4">
-<h4 class="anchored" data-anchor-id="星期一"><a href="../../japan_itinerary/miyazaki/星期一.html">星期一</a></h4>
-</section>
-<section id="星期二" class="level4">
-<h4 class="anchored" data-anchor-id="星期二"><a href="../../japan_itinerary/miyazaki/星期二.html">星期二</a></h4>
-</section>
-<section id="星期三" class="level4">
-<h4 class="anchored" data-anchor-id="星期三"><a href="../../japan_itinerary/miyazaki/星期三.html">星期三</a></h4>
-</section>
-<section id="星期四" class="level4">
-<h4 class="anchored" data-anchor-id="星期四"><a href="../../japan_itinerary/miyazaki/星期四.html">星期四</a></h4>
-</section>
-</section>
-<section id="美食" class="level2">
-<h2 class="anchored" data-anchor-id="美食">美食</h2>
-<section id="高千穗峽周邊" class="level4">
-<h4 class="anchored" data-anchor-id="高千穗峽周邊"><a href="../../japan_itinerary/miyazaki/food.html#高千穗峽周邊">高千穗峽周邊</a></h4>
-</section>
-<section id="青島周邊" class="level4">
-<h4 class="anchored" data-anchor-id="青島周邊"><a href="../../japan_itinerary/miyazaki/food.html#青島">青島周邊</a></h4>
-</section>
-<section id="䶏戶周邊" class="level4">
-<h4 class="anchored" data-anchor-id="䶏戶周邊"><a href="../../japan_itinerary/miyazaki/food.html#䶏戶">䶏戶周邊</a></h4>
-</section>
-<section id="飫肥城下町周邊" class="level4">
-<h4 class="anchored" data-anchor-id="飫肥城下町周邊"><a href="../../japan_itinerary/miyazaki/food.html#飫肥城下町">飫肥城下町周邊</a></h4>
-</section>
-<section id="市區" class="level4">
-<h4 class="anchored" data-anchor-id="市區"><a href="../../japan_itinerary/miyazaki/food.html#市區">市區</a></h4>
-</section>
-</section>
-<section id="所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7" class="level2">
-<h2 class="anchored" data-anchor-id="所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7">所有地點 <a href="https://maps.app.goo.gl/DokaNAW5grPGD5cv7">https://maps.app.goo.gl/DokaNAW5grPGD5cv7</a></h2>
-</section>
-<section id="交通" class="level1">
-<h1>交通</h1>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>宮崎當地交通票券推薦！「宮崎巴士一日券」 現在中華航空每周皆有固定航班從台灣直飛宮崎，如果各位打算從宮崎機場進到市區、或是當天預計都靠公車代步，非常推薦購買這張外國遊客限定的「宮崎巴士一日券」，價格為1000元日幣/張，只要是「宮崎交通」的巴士都可以搭乘喔！購買「宮崎巴士一日券」時需出示護照（留學生也可以購買）。可以在機場的資訊櫃台、宮崎車站、宮崎市區內多間飯店及巴士總站購得。</p>
-<p>原文網址: https://kyushu.letsgojp.com/archives/609036/ © 樂吃購！日本 kyushu.letsgojp.com</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<p>於宮崎市觀光時，推薦您搭乘連接宮崎車站和市中心的「GRUPPI」巴士。這些可愛的黃色或橙色 GRUPPI 巴士大約每12分鐘一班，從上午10:30左右開始運行於市中心。每趟車程只需100日圓，且可用現金或交通IC卡支付。歡迎搭乘！</p>
-<p>如欲了解「GRUPPI」搭乘地點及時刻表等資訊，請參閱<a href="https://www.miyazaki-city.tourism.or.jp/traffic/12268">網站</a></p>
-</div>
-</div>
-</div>
-<section id="資料來源" class="level2">
-<h2 class="anchored" data-anchor-id="資料來源">資料來源</h2>
-<ul>
-<li><a href="https://www.kanko-miyazaki.jp/zh-TW">https://www.kanko-miyazaki.jp/zh-TW</a></li>
-<li><a href="https://www.miyazaki-city.tourism.or.jp/zh_TW">https://www.miyazaki-city.tourism.or.jp/zh_TW</a></li>
-<li><a href="https://takachiho-kanko.info/?stt_lang=zh-TW">https://takachiho-kanko.info/?stt_lang=zh-TW</a></li>
-<li><a href="https://kyushu.letsgojp.com/archives/537083/">https://kyushu.letsgojp.com/archives/537083/</a></li>
-<li><a href="https://littlebeartrips.com/miyazakiken-travel-spot/">https://littlebeartrips.com/miyazakiken-travel-spot/</a></li>
-<li><a href="https://www.japan.travel/en/destinations/kyushu/miyazaki/">https://www.japan.travel/en/destinations/kyushu/miyazaki/</a></li>
-<li><a href="https://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html">https://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html</a></li>
-<li><a href="https://kyushu.letsgojp.com/archives/609036/">https://kyushu.letsgojp.com/archives/609036/</a></li>
-<li><a href="https://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch">https://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch</a></li>
-<li><a href="https://www.gltjp.com/zh-hant/article/item/20285/">https://www.gltjp.com/zh-hant/article/item/20285/</a></li>
-</ul>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
