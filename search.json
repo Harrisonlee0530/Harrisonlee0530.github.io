@@ -35,6 +35,13 @@
     "text": "Introduction\nKendama (けん玉 or 剣玉) is a traditional Japanese skill toy that has grown into an international sport, blending precision, creativity, and perseverance. At its core, the game involves catching a wooden ball (tama, 玉) on different parts of a spiked handle (ken, 剣), but the real challenge lies in mastering the countless tricks, combinations, and flows that players around the world continue to invent.\nWhat makes Kendama special is the balance it strikes between skill, patience, and training. Every trick requires focus and control, and progress comes only through repeated practice and determination. The process is humbling — drops and misses are part of the journey — but with persistence, even the most difficult tricks become achievable.\nBeyond being a toy, Kendama is a discipline that cultivates concentration, resilience, and creativity. It is a community-driven sport where players of all levels can connect, share, and push one another to grow.\nI began practicing Kendama in December 2022, and over time I came to see it as more than just a skill toy. The deliberate repetition of movements, the quiet focus on balance, and the acceptance of failure as part of progress all resonated with me as a kind of meditation. Each missed catch is a reminder of patience, and each successful landing reflects persistence rewarded. In this way, Kendama has become not only a physical practice but also a philosophy of life, one that mirrors the mindset I bring to both academic and personal challenges.\n\n\nAchivements\n\nVan Jam 2025 - Casual Division, 1st Place\nVan Jam 2024 - Casual Division, 1st Place\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "mypw/projects/interactive_plot.html",
+    "href": "mypw/projects/interactive_plot.html",
+    "title": "Sine function",
+    "section": "",
+    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift\", \"Phase shift\", 0, 2, 0, step=0.1),\n        ),\n        ui.output_plot(\"plot\"),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude() * np.sin(\n            (2 * np.pi / input.period()) * (t - input.shift() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "mypw/projects/project1.html",
     "href": "mypw/projects/project1.html",
     "title": "Project 1",
@@ -811,7 +818,7 @@
     "href": "japan_itinerary/miyazaki/miyazaki.html#住宿",
     "title": "宮崎",
     "section": "住宿",
-    "text": "住宿\n\nPrince Smart Inn Miyazaki\n\n星期一公車路線\n星期五 \\(07:00\\) 去機場\n\\(10:30\\) 起飛",
+    "text": "住宿\n\nPrince Smart Inn Miyazaki\n\n星期一公車路線\n星期五 \\(06:45\\) 去機場\n\\(07:20\\) 到機場\n\\(10:30\\) 起飛",
     "crumbs": [
       "Home",
       "宮崎",
@@ -902,6 +909,13 @@
       "Projects",
       "Projects Overview"
     ]
+  },
+  {
+    "objectID": "mypw/projects/test.html",
+    "href": "mypw/projects/test.html",
+    "title": "Shinylive in Quarto example",
+    "section": "",
+    "text": "This is a Shinylive application embedded in a Quarto doc.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n\nfrom shiny import *\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
   },
   {
     "objectID": "mypw/about.html",
