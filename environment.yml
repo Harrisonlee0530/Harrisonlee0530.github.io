@@ -1,0 +1,19 @@
+name: github-website
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.11
+  - pip
+  - pandas
+  - numpy
+  - quarto
+  - matplotlib
+  - shiny
+  - shinywidgets
+  - anywidget
+  - altair
+  - pip:
+      - shinylive
+      - rsconnect
+      - datetime
+      - leafmap
