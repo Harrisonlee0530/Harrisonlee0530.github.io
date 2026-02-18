@@ -1,0 +1,110 @@
+---
+title: 2D Sphere Approximation
+format: html
+filters:
+  - shinylive
+---
+# Project Not Completed
+
+An interactive dashboard created with Shiny for Python to approximate a 2D sphere with radius $r$ to be used in wood turning.
+
+The sphere is approximated by $n$-polygon where $n = 2^\text{level}$, and level is the discretization level.
+
+The distance from any node to center
+$$
+r_n = \frac{r}{\sin\left(\frac{\pi}{2} - \frac{\pi}{n}\right)}
+$$
+
+The points to approximate the sphere can be calculated by
+$$
+p_n = r_n\cdot\left(\cos\left(\theta\cdot\frac{2\pi}{n} + \phi_n\right), \sin\left(\theta\cdot\frac{2\pi}{n} + \phi_n\right)\right), \phi_n = \frac{\pi}{n}, \theta \in [1, \ldots, n]
+$$
+
+The side length of the $n$-polygon:
+$$
+s_n = 2r_n\cos\left(\frac{\pi}{2} - \frac{\pi}{n}\right)
+$$
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 420
+
+from shiny import App, render, ui, reactive
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+app_ui = ui.page_fluid(
+    ui.layout_sidebar(
+        ui.sidebar(
+            ui.input_slider(
+                id = "radius", 
+                label = "radius", 
+                min = 1, max = 10, value = 1, 
+                step=0.5
+            ),
+            ui.input_slider(
+                id = "level", 
+                label = "Level", 
+                min = 2, max = 7, value = 2, 
+                step = 1),
+        ),
+        ui.layout_columns(
+            ui.value_box("n", ui.output_text("n")),
+            ui.value_box("radius", ui.output_text("radius")),
+            fill = False
+        ), 
+        ui.layout_columns(
+            ui.output_data_frame("points_datafrane")
+        ), 
+        ui.layout_columns(
+            ui.output_plot("plot")
+        )
+    ),
+)
+
+
+def server(input, output, session):
+
+    @reactive.calc
+    def points():
+        r = input.radius()
+        n = 2 ** input.level()
+        r_n = r / np.sin(np.pi * (0.5 - 1/n))
+        phi_n = np.pi/n
+        points_data = pd.DataFrame([
+            (
+                r_n * np.cos(i * 2 * np.pi / n + phi_n), 
+                r_n * np.sin(i * 2 * np.pi / n + phi_n)
+            ) for i in range(1, n+1)
+        ]).rename({0: 'x', 1: 'y'}, axis=1)
+        return points_data
+
+    @render.data_frame
+    def points_datafrane():
+        return points()
+
+    @render.text
+    def n():
+        return str(2 ** input.level())
+
+    @render.text
+    def radius():
+        return str(input.radius())
+
+    @output
+    @render.plot
+    def plot():
+        t = np.arange(0.0, 4.0, 0.01)
+        s = input.radius() * np.sin(
+            (2 * np.pi / input.n()) * (t - input.radius() / 2)
+        )
+        fig, ax = plt.subplots()
+        ax.set_ylim([-2, 2])
+        ax.plot(t, s)
+        ax.grid()
+
+
+app = App(app_ui, server)
+
+```

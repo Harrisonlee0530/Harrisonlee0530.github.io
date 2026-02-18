@@ -1,0 +1,22 @@
+---
+title: "Gallery Labels Generator"
+---
+
+GitHub Repo: [https://github.com/Harrisonlee0530/gallery-labels](https://github.com/Harrisonlee0530/gallery-labels)
+
+Shiny App: [https://harrisonlee0530.shinyapps.io/gallery-labels/](https://harrisonlee0530.shinyapps.io/gallery-labels/)
+
+Gallery Labels is a Shiny for Python application designed for an artist for creating, managing, and exporting exhibition labels formatted for print (fractional A4 size cards).
+
+The application allows manual entry or bulk upload of artwork metadata and supports export to print-ready PDF (double-spaced, embedded font)
+
+The main goal for this application is to get used to github workflow and Shiny for Python
+
+## Features
+
+- Create labels via sidebar form inputs
+- Bulk upload labels from CSV
+- Delete labels using a title-based dropdown selector
+- Session-isolated user data (no shared state between users)
+- Export labels as:
+  - PDF (print-ready, double-spaced typography)
