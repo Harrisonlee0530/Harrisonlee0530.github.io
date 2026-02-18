@@ -29,9 +29,8 @@ website:
       style: floating
       contents:
         - mypw/projects/projects.qmd
-        - section: "Projects"
-          contents: 
-            - mypw/projects/project1.qmd
+        - mypw/projects/gallery-labels.qmd
+        - mypw/projects/sphere_approx_2d.qmd
 
     - id: japan-itinerary
       title: 日本行
