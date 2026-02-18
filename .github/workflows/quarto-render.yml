@@ -1,0 +1,41 @@
+name: Render Quarto to docs
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: github-website-quarto
+          environment-file: environment.yml
+          auto-activate-base: false
+
+      - name: Render site
+        shell: bash -l {0}
+        run: quarto render
+
+      - name: Commit rendered docs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Auto-render Quarto site"
+          git push
