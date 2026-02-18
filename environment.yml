@@ -1,12 +1,11 @@
-name: github-website
+name: github-website-quarto
 channels:
   - conda-forge
 dependencies:
-  - python=3.12.11
+  - python=3.12
   - pip
   - pandas
   - numpy
-  - quarto
   - matplotlib
   - shiny
   - shinywidgets
@@ -15,5 +14,4 @@ dependencies:
   - pip:
       - shinylive
       - rsconnect
-      - datetime
       - leafmap
