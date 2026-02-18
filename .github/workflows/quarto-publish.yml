@@ -28,6 +28,11 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
       - name: Publish to gh-pages
         shell: bash -l {0}
-        run: quarto publish gh-pages --no-prompt
+        run: quarto publish gh-pages --no-prompt --force
