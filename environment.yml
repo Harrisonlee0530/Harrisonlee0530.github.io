@@ -14,6 +14,7 @@ dependencies:
   - pyyaml
   - nbformat
   - nbclient
+  - ipykernel
   - pip:
       - shinylive
       - rsconnect
