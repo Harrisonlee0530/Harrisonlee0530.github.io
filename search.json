@@ -1,86 +1,95 @@
 [
   {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html",
-    "href": "japan_itinerary/miyazaki/miyazaki.html",
-    "title": "宮崎",
-    "section": "",
-    "text": "宮崎縣位於九州東南部，東邊有美麗的海岸線，西邊有九州山地及霧島連峰等雄偉的山岳景觀。其中，能享受美麗的自然風光和熱帶島嶼氛圍的景點眾多，度假設施也相當充實，作為富有南國風情的旅遊勝地而深受海內外旅人的歡迎。\n宮崎縣還被譽為日本神話的故鄉，有許多流傳著古老神話及傳說的景點，可以領略到日本歷史和傳統文化的獨特魅力。\n宮崎縣是日本最古老的史書《古事記》和《日本書紀》中所描述的「日向神話」的舞台。 在「日向神話」的一開始就描述了關於天神自眾神之國降臨到高千穗的場景。在被稱為「神話故鄉」的高千穂和青島等著名景點，可以欣賞到仙氣滿滿，充滿神秘氛圍的大自然景觀。\n一年四季氣候溫暖宜人的宮崎縣，除了盛產芒果以外，以宮崎牛為代表的品牌牛肉、豬肉、地雞等美味食材也享譽全日本。\n※《古事記》和《日本書紀》是記載日本神話、日本古代史的重要史籍 (詳細資訊)。\n※ 資料來源",
+    "objectID": "ubc-mds/DSCI521/lab3_slides.html#getting-up",
+    "href": "ubc-mds/DSCI521/lab3_slides.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "ubc-mds/DSCI521/lab3_slides.html#breakfast",
+    "href": "ubc-mds/DSCI521/lab3_slides.html#breakfast",
+    "title": "Habits",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "ubc-mds/DSCI521/lab3_slides.html#code-chunk",
+    "href": "ubc-mds/DSCI521/lab3_slides.html#code-chunk",
+    "title": "Habits",
+    "section": "Code Chunk",
+    "text": "Code Chunk\n\nprint(\"This is a sentence with some text.\")\n\n[1] \"This is a sentence with some text.\""
+  },
+  {
+    "objectID": "ubc-mds/DSCI521/lab3_slides.html#going-to-sleep",
+    "href": "ubc-mds/DSCI521/lab3_slides.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期二.html#真名井の滝",
+    "href": "japan_itinerary/miyazaki/星期二.html#真名井の滝",
+    "title": "星期二",
+    "section": "真名井の滝",
+    "text": "真名井の滝\n可以說是高千穗峽的代名詞的著名瀑布，被選為日本瀑布100選。 據說天孫降臨時，由於這片土地上沒有水，天村雲命轉移水種的「天真名井」的水變成了瀑布流了下來。 從小船上仰望的瀑布很有魄力。\n出租船資訊連結",
     "crumbs": [
       "Home",
       "宮崎",
-      "宮崎"
+      "行程",
+      "星期二"
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#地圖",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#地圖",
-    "title": "宮崎",
-    "section": "地圖",
-    "text": "地圖",
+    "objectID": "japan_itinerary/miyazaki/星期二.html#おのころ池",
+    "href": "japan_itinerary/miyazaki/星期二.html#おのころ池",
+    "title": "星期二",
+    "section": "おのころ池",
+    "text": "おのころ池\n池塘裡有伊弉諾尊、伊弉冉尊兩神創造的島嶼「Onokoro島」。 在高千穗神社的大祭中，神轎在御之池繞了3圈進行禊。",
     "crumbs": [
       "Home",
       "宮崎",
-      "宮崎"
+      "行程",
+      "星期二"
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#住宿",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#住宿",
-    "title": "宮崎",
-    "section": "住宿",
-    "text": "住宿\n\nPrince Smart Inn Miyazaki\n\n星期一公車路線\n星期五 \\(06:45\\) 去機場\n\\(07:20\\) 到機場\n\\(10:30\\) 起飛",
+    "objectID": "japan_itinerary/miyazaki/星期二.html#月形",
+    "href": "japan_itinerary/miyazaki/星期二.html#月形",
+    "title": "星期二",
+    "section": "月形",
+    "text": "月形\n由於素戔嗚尊的粗暴，天照大神躲在天巖屋的「巖門開神話」之後，素戔嗚尊受到神明的審判被驅逐出高天原。 據說當時作為道歉的標誌，用表示天照大神的「日形」和沒有一半存在的「月形」來表達自己。 江戶末期的記錄中還留下了「月形、日形」的圖畫，但現在「日形」已經崩潰，只剩下「月形」。",
     "crumbs": [
       "Home",
       "宮崎",
-      "宮崎"
+      "行程",
+      "星期二"
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#行程",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#行程",
-    "title": "宮崎",
-    "section": "行程",
-    "text": "行程\n\n星期一\n\n\n星期二\n\n\n星期三\n\n\n星期四\n\n\n其他景點",
+    "objectID": "japan_itinerary/miyazaki/星期二.html#鬼八の力石",
+    "href": "japan_itinerary/miyazaki/星期二.html#鬼八の力石",
+    "title": "星期二",
+    "section": "鬼八の力石",
+    "text": "鬼八の力石\n高千穗神社的祭神三毛入野命和破壞高千穗鄉一帶的荒神鬼八爭鬥時，據說是鬼八為了炫耀力量而扔的石頭。 重量估計為200噸。\n\n其它\n\n\n\n\n\n\nNote高千穂峡淡水魚水族館\n\n\n\n\n\n\n\\(09:00 \\sim 16:00\\), 門票 \\(\\yen 600\\), 官網 利用以玉垂瀑布 為水源的清澈泉水，以棲息在東科等五瀨川水系的淡水魚為中心，還有棲息在巴西、非洲的熱帶淡水魚、兩棲動物、鐵魚等稀有魚類 聚集了大約80種淡水魚、熱帶魚。\n\n希望能夠作為來訪者的研修場所，也可以作為學習設施使用，對自然保護有一點幫助。",
     "crumbs": [
       "Home",
       "宮崎",
-      "宮崎"
+      "行程",
+      "星期二"
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#美食",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#美食",
-    "title": "宮崎",
-    "section": "美食",
-    "text": "美食\n\n高千穗峽周邊\n\n\n青島周邊\n\n\n䶏戶周邊\n\n\n飫肥城下町周邊\n\n\n市區",
+    "objectID": "japan_itinerary/miyazaki/星期二.html#高千穗神社",
+    "href": "japan_itinerary/miyazaki/星期二.html#高千穗神社",
+    "title": "星期二",
+    "section": "高千穗神社",
+    "text": "高千穗神社\n\n(從高千穗峽步行20分鐘)\n\n\n\n\n\n\n\nNote每晚舉辦的傳統神樂必看！\n\n\n\n\n\n高千穗神社已有超過1,900年歷史，是當地最重要的神社之一，供奉著天孫降臨的神祇。\n高千穗神社以結緣之神而聞名。\n用地內有樹齡約800年的「秩父杉」，以及同根生的2棵巨大杉樹「夫婦杉」。據說與伴侶攜手繞夫婦杉3圈就會獲得幸福，保佑良緣、夫妻和睦及子孫繁榮。\n每年11月中旬起到隔年2月上旬，高千穗的各聚落都會舉辦「夜神樂」，一整晚向神明供奉三十三種神樂。而高千穗神社則在每天晚上8點起舉辦1小時的「高千穗神樂」，表演代表性的4種神樂。在夜神樂季節以外期間，也可欣賞日本的傳統神樂，廣受日本國內外的觀光客歡迎。（收取參觀費，須事先預約）\n\n\n\n\n其它\n\n\n國見丘（国見ヶ丘）\n\n\n\n\n\n\nNote高千穗最著名的日出與雲海觀賞地\n\n\n\n\n\n國見丘是高千穗最著名的日出與雲海觀賞地，標高513公尺，可俯瞰整個高千穗盆地，晴朗的秋冬清晨，這裡經常被夢幻的雲海覆蓋，猶如仙境。此外，這裡也是欣賞日出與星空的絕佳地點，被選為「日本百大日出景點」之一。 - 官網\n\n\n\n\n\n天安河原（あまのやすかわら）、天岩戸神社\n\n官網\n高千穗觀光協會\n\n\n\n\n\n\n\nNote知名日本神話「天岩戶神話」的舞台\n\n\n\n\n\n天安河原位於從天岩戶神社步行約10分鐘的場所，即日本神話舞台的大洞穴。身為太陽神的天照大神躲藏在天岩戶中，世界因此陷入黑暗，引發無數災禍。據傳這片河原就是煩惱的眾神明聚在一起，商量如何取回光明的場所。傳聞在這個能量景點將石頭疊起並許願，就能實現願望，洞穴內疊起的眾多石堆呈現出神秘的氛圍。\n天岩戶神社歷史悠久，也是日本現存最古老史書中所記載「天岩戶神話」的舞台。在神話中，身為太陽神的天照大御神對弟弟素盞鳴命的暴行感到憤怒，因而躲藏於名為天岩戶的岩石洞穴。天岩戶中便供奉著神明依附的御神體。這裡也是日本數一數二的知名能量景點。\n天岩戶神社供奉著太陽神躲藏的天岩戶。傳說中眾神明在洞穴前製造出熱鬧的聲響，引誘天照大神出來而取回光明。岩戶川的兩岸分別鎮座著「西本宮」與「東本宮」，供奉御神體「天岩戶」的是西本宮，一天提供15次神職人員的參拜導覽服務。請一定要造訪知名日本神話「天岩戶神話」的舞台。\n\n\n\n\n\n＃高千穗美食",
     "crumbs": [
       "Home",
       "宮崎",
-      "宮崎"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7",
-    "title": "宮崎",
-    "section": "所有地點 https://maps.app.goo.gl/DokaNAW5grPGD5cv7",
-    "text": "所有地點 https://maps.app.goo.gl/DokaNAW5grPGD5cv7",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "宮崎"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/miyazaki.html#資料來源",
-    "href": "japan_itinerary/miyazaki/miyazaki.html#資料來源",
-    "title": "宮崎",
-    "section": "資料來源",
-    "text": "資料來源\n\nhttps://www.kanko-miyazaki.jp/zh-TW\nhttps://www.miyazaki-city.tourism.or.jp/zh_TW\nhttps://takachiho-kanko.info/?stt_lang=zh-TW\nhttps://kyushu.letsgojp.com/archives/537083/\nhttps://littlebeartrips.com/miyazakiken-travel-spot/\nhttps://www.japan.travel/en/destinations/kyushu/miyazaki/\nhttps://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html\nhttps://kyushu.letsgojp.com/archives/609036/\nhttps://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch\nhttps://www.gltjp.com/zh-hant/article/item/20285/",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "宮崎"
+      "行程",
+      "星期二"
     ]
   },
   {
@@ -456,279 +465,6 @@
     ]
   },
   {
-    "objectID": "japan_itinerary/miyazaki/星期三.html",
-    "href": "japan_itinerary/miyazaki/星期三.html",
-    "title": "星期三",
-    "section": "",
-    "text": "Tip方案 A 出發 \\(\\to\\) 青島神社 \\(\\to\\) 飫肥城下町 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n\n\\(09:00\\quad\\) 到青島神社 - 在青島 附近活動\n\\(12:20\\quad\\) 出發 去 飫肥城下町\n\\(\\ldots\\) 1\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nNote方案 B 出發 \\(\\to\\) 鵜戶神宮 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n參照\n\\(09:30\\quad\\) 出發\n\\(11:20\\quad\\) 到鵜戶神宮\n\\(13:00\\quad\\) 出發\n\\(14:10\\quad\\) 到青島神社\n\n\\(\\ldots\\) 2\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nWarning方案 C 出發 \\(\\to\\) 青島神社 \\(\\to\\) 日南太陽花園(週三公休) \\(\\to\\) 鵜戶神宮 \\(\\to\\) 返回\n\n\n\n\n\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島待 \\(3\\) 小時 \\(+\\) 吃午餐\n\\(12:20\\) 出發去 日南太陽花園\n搭30分鐘公車再步行25分鐘 \\(\\sim\\yen 1000\\)\n下午 \\(01:30\\) 到\n\n在日南太陽花園待 \\(1\\) 小時 \\(30\\) 分鐘\n\n下午 \\(03:00\\) 出發\n步行10分鐘+搭5分鐘公車+步行10分鐘去鵜戶神宮 \\(\\sim\\yen 250\\)\n\n鵜戶神宮 待 \\(1\\) 小時\n下午 04:32 返回 \\(\\sim 1\\) 小時, \\(\\sim\\yen 1550\\)\n\n\n\n\n\n\n\n\n\nNote方案 D 出發 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島 附近活動\n\n\\(\\ldots\\) 3\n\n回市區逛\n公車",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期三"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期三.html#交通",
-    "href": "japan_itinerary/miyazaki/星期三.html#交通",
-    "title": "星期三",
-    "section": "",
-    "text": "Tip方案 A 出發 \\(\\to\\) 青島神社 \\(\\to\\) 飫肥城下町 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n\n\\(09:00\\quad\\) 到青島神社 - 在青島 附近活動\n\\(12:20\\quad\\) 出發 去 飫肥城下町\n\\(\\ldots\\) 1\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nNote方案 B 出發 \\(\\to\\) 鵜戶神宮 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n參照\n\\(09:30\\quad\\) 出發\n\\(11:20\\quad\\) 到鵜戶神宮\n\\(13:00\\quad\\) 出發\n\\(14:10\\quad\\) 到青島神社\n\n\\(\\ldots\\) 2\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nWarning方案 C 出發 \\(\\to\\) 青島神社 \\(\\to\\) 日南太陽花園(週三公休) \\(\\to\\) 鵜戶神宮 \\(\\to\\) 返回\n\n\n\n\n\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島待 \\(3\\) 小時 \\(+\\) 吃午餐\n\\(12:20\\) 出發去 日南太陽花園\n搭30分鐘公車再步行25分鐘 \\(\\sim\\yen 1000\\)\n下午 \\(01:30\\) 到\n\n在日南太陽花園待 \\(1\\) 小時 \\(30\\) 分鐘\n\n下午 \\(03:00\\) 出發\n步行10分鐘+搭5分鐘公車+步行10分鐘去鵜戶神宮 \\(\\sim\\yen 250\\)\n\n鵜戶神宮 待 \\(1\\) 小時\n下午 04:32 返回 \\(\\sim 1\\) 小時, \\(\\sim\\yen 1550\\)\n\n\n\n\n\n\n\n\n\nNote方案 D 出發 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島 附近活動\n\n\\(\\ldots\\) 3\n\n回市區逛\n公車",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期三"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期三.html#footnotes",
-    "href": "japan_itinerary/miyazaki/星期三.html#footnotes",
-    "title": "星期三",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n自己想👍 ¯\\_(ツ)_/¯↩︎\n自己想👍 ¯\\_(ツ)_/¯↩︎\n自己想👍 ¯\\_(ツ)_/¯↩︎",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期三"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期二.html#真名井の滝",
-    "href": "japan_itinerary/miyazaki/星期二.html#真名井の滝",
-    "title": "星期二",
-    "section": "真名井の滝",
-    "text": "真名井の滝\n可以說是高千穗峽的代名詞的著名瀑布，被選為日本瀑布100選。 據說天孫降臨時，由於這片土地上沒有水，天村雲命轉移水種的「天真名井」的水變成了瀑布流了下來。 從小船上仰望的瀑布很有魄力。\n出租船資訊連結",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期二"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期二.html#おのころ池",
-    "href": "japan_itinerary/miyazaki/星期二.html#おのころ池",
-    "title": "星期二",
-    "section": "おのころ池",
-    "text": "おのころ池\n池塘裡有伊弉諾尊、伊弉冉尊兩神創造的島嶼「Onokoro島」。 在高千穗神社的大祭中，神轎在御之池繞了3圈進行禊。",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期二"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期二.html#月形",
-    "href": "japan_itinerary/miyazaki/星期二.html#月形",
-    "title": "星期二",
-    "section": "月形",
-    "text": "月形\n由於素戔嗚尊的粗暴，天照大神躲在天巖屋的「巖門開神話」之後，素戔嗚尊受到神明的審判被驅逐出高天原。 據說當時作為道歉的標誌，用表示天照大神的「日形」和沒有一半存在的「月形」來表達自己。 江戶末期的記錄中還留下了「月形、日形」的圖畫，但現在「日形」已經崩潰，只剩下「月形」。",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期二"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期二.html#鬼八の力石",
-    "href": "japan_itinerary/miyazaki/星期二.html#鬼八の力石",
-    "title": "星期二",
-    "section": "鬼八の力石",
-    "text": "鬼八の力石\n高千穗神社的祭神三毛入野命和破壞高千穗鄉一帶的荒神鬼八爭鬥時，據說是鬼八為了炫耀力量而扔的石頭。 重量估計為200噸。\n\n其它\n\n\n\n\n\n\nNote高千穂峡淡水魚水族館\n\n\n\n\n\n\n\\(09:00 \\sim 16:00\\), 門票 \\(\\yen 600\\), 官網 利用以玉垂瀑布 為水源的清澈泉水，以棲息在東科等五瀨川水系的淡水魚為中心，還有棲息在巴西、非洲的熱帶淡水魚、兩棲動物、鐵魚等稀有魚類 聚集了大約80種淡水魚、熱帶魚。\n\n希望能夠作為來訪者的研修場所，也可以作為學習設施使用，對自然保護有一點幫助。",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期二"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期二.html#高千穗神社",
-    "href": "japan_itinerary/miyazaki/星期二.html#高千穗神社",
-    "title": "星期二",
-    "section": "高千穗神社",
-    "text": "高千穗神社\n\n(從高千穗峽步行20分鐘)\n\n\n\n\n\n\n\nNote每晚舉辦的傳統神樂必看！\n\n\n\n\n\n高千穗神社已有超過1,900年歷史，是當地最重要的神社之一，供奉著天孫降臨的神祇。\n高千穗神社以結緣之神而聞名。\n用地內有樹齡約800年的「秩父杉」，以及同根生的2棵巨大杉樹「夫婦杉」。據說與伴侶攜手繞夫婦杉3圈就會獲得幸福，保佑良緣、夫妻和睦及子孫繁榮。\n每年11月中旬起到隔年2月上旬，高千穗的各聚落都會舉辦「夜神樂」，一整晚向神明供奉三十三種神樂。而高千穗神社則在每天晚上8點起舉辦1小時的「高千穗神樂」，表演代表性的4種神樂。在夜神樂季節以外期間，也可欣賞日本的傳統神樂，廣受日本國內外的觀光客歡迎。（收取參觀費，須事先預約）\n\n\n\n\n其它\n\n\n國見丘（国見ヶ丘）\n\n\n\n\n\n\nNote高千穗最著名的日出與雲海觀賞地\n\n\n\n\n\n國見丘是高千穗最著名的日出與雲海觀賞地，標高513公尺，可俯瞰整個高千穗盆地，晴朗的秋冬清晨，這裡經常被夢幻的雲海覆蓋，猶如仙境。此外，這裡也是欣賞日出與星空的絕佳地點，被選為「日本百大日出景點」之一。 - 官網\n\n\n\n\n\n天安河原（あまのやすかわら）、天岩戸神社\n\n官網\n高千穗觀光協會\n\n\n\n\n\n\n\nNote知名日本神話「天岩戶神話」的舞台\n\n\n\n\n\n天安河原位於從天岩戶神社步行約10分鐘的場所，即日本神話舞台的大洞穴。身為太陽神的天照大神躲藏在天岩戶中，世界因此陷入黑暗，引發無數災禍。據傳這片河原就是煩惱的眾神明聚在一起，商量如何取回光明的場所。傳聞在這個能量景點將石頭疊起並許願，就能實現願望，洞穴內疊起的眾多石堆呈現出神秘的氛圍。\n天岩戶神社歷史悠久，也是日本現存最古老史書中所記載「天岩戶神話」的舞台。在神話中，身為太陽神的天照大御神對弟弟素盞鳴命的暴行感到憤怒，因而躲藏於名為天岩戶的岩石洞穴。天岩戶中便供奉著神明依附的御神體。這裡也是日本數一數二的知名能量景點。\n天岩戶神社供奉著太陽神躲藏的天岩戶。傳說中眾神明在洞穴前製造出熱鬧的聲響，引誘天照大神出來而取回光明。岩戶川的兩岸分別鎮座著「西本宮」與「東本宮」，供奉御神體「天岩戶」的是西本宮，一天提供15次神職人員的參拜導覽服務。請一定要造訪知名日本神話「天岩戶神話」的舞台。\n\n\n\n\n\n＃高千穗美食",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期二"
-    ]
-  },
-  {
-    "objectID": "ubc-mds/DSCI521/lab3_slides.html#getting-up",
-    "href": "ubc-mds/DSCI521/lab3_slides.html#getting-up",
-    "title": "Habits",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
-  },
-  {
-    "objectID": "ubc-mds/DSCI521/lab3_slides.html#breakfast",
-    "href": "ubc-mds/DSCI521/lab3_slides.html#breakfast",
-    "title": "Habits",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
-  },
-  {
-    "objectID": "ubc-mds/DSCI521/lab3_slides.html#code-chunk",
-    "href": "ubc-mds/DSCI521/lab3_slides.html#code-chunk",
-    "title": "Habits",
-    "section": "Code Chunk",
-    "text": "Code Chunk\n\nprint(\"This is a sentence with some text.\")\n\n[1] \"This is a sentence with some text.\""
-  },
-  {
-    "objectID": "ubc-mds/DSCI521/lab3_slides.html#going-to-sleep",
-    "href": "ubc-mds/DSCI521/lab3_slides.html#going-to-sleep",
-    "title": "Habits",
-    "section": "Going to sleep",
-    "text": "Going to sleep\n\nGet in bed\nCount sheep"
-  },
-  {
-    "objectID": "mypw/about.html",
-    "href": "mypw/about.html",
-    "title": "Harrison Li",
-    "section": "",
-    "text": "I am a highly motivated graduate student in Masters of Data Science @ UBC with a strong foundation in physics and computational methods, interested in data science and computational modeling for solving real-world problems. My academic journey has equipped me with a diverse skill set spanning physics, mathematics, and programming, which I apply to tackle complex challenges. I am eager to contribute my analytical abilities and technical expertise to innovative projects while continuing to expand my knowledge and professional experience in my graduate studies."
-  },
-  {
-    "objectID": "mypw/about.html#experience",
-    "href": "mypw/about.html#experience",
-    "title": "Harrison Li",
-    "section": "Experience",
-    "text": "Experience\nFeng Chia University | Teaching Assitant - 1st year Classical Mechanics | Sep 2021 - Jan 2022"
-  },
-  {
-    "objectID": "mypw/projects/interactive_plot.html",
-    "href": "mypw/projects/interactive_plot.html",
-    "title": "Sine function",
-    "section": "",
-    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift\", \"Phase shift\", 0, 2, 0, step=0.1),\n        ),\n        ui.output_plot(\"plot\"),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude() * np.sin(\n            (2 * np.pi / input.period()) * (t - input.shift() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "mypw/projects/test.html",
-    "href": "mypw/projects/test.html",
-    "title": "Shinylive in Quarto example",
-    "section": "",
-    "text": "This is a Shinylive application embedded in a Quarto doc.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n\nfrom shiny import *\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "mypw/projects/projects.html",
-    "href": "mypw/projects/projects.html",
-    "title": "Projects Overview",
-    "section": "",
-    "text": "A list of projects …\n\n\n\n Back to top",
-    "crumbs": [
-      "Projects",
-      "Projects Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSome random text\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "mypw/projects/gallery-labels.html",
-    "href": "mypw/projects/gallery-labels.html",
-    "title": "Gallery Labels Generator",
-    "section": "",
-    "text": "GitHub Repo: https://github.com/Harrisonlee0530/gallery-labels\nShiny App: https://harrisonlee0530.shinyapps.io/gallery-labels/\nGallery Labels is a Shiny for Python application designed for an artist for creating, managing, and exporting exhibition labels formatted for print (fractional A4 size cards).\nThe application allows manual entry or bulk upload of artwork metadata and supports export to print-ready PDF (double-spaced, embedded font)\nThe main goal for this application is to get used to github workflow and Shiny for Python",
-    "crumbs": [
-      "Projects",
-      "Gallery Labels Generator"
-    ]
-  },
-  {
-    "objectID": "mypw/projects/gallery-labels.html#features",
-    "href": "mypw/projects/gallery-labels.html#features",
-    "title": "Gallery Labels Generator",
-    "section": "Features",
-    "text": "Features\n\nCreate labels via sidebar form inputs\nBulk upload labels from CSV\nDelete labels using a title-based dropdown selector\nSession-isolated user data (no shared state between users)\nExport labels as:\n\nPDF (print-ready, double-spaced typography)",
-    "crumbs": [
-      "Projects",
-      "Gallery Labels Generator"
-    ]
-  },
-  {
-    "objectID": "mypw/projects/sphere_approx_2d.html",
-    "href": "mypw/projects/sphere_approx_2d.html",
-    "title": "2D Sphere Approximation",
-    "section": "",
-    "text": "Project Not Completed\nAn interactive dashboard created with Shiny for Python to approximate a 2D sphere with radius \\(r\\) to be used in wood turning.\nThe sphere is approximated by \\(n\\)-polygon where \\(n = 2^\\text{level}\\), and level is the discretization level.\nThe distance from any node to center \\[\nr_n = \\frac{r}{\\sin\\left(\\frac{\\pi}{2} - \\frac{\\pi}{n}\\right)}\n\\]\nThe points to approximate the sphere can be calculated by \\[\np_n = r_n\\cdot\\left(\\cos\\left(\\theta\\cdot\\frac{2\\pi}{n} + \\phi_n\\right), \\sin\\left(\\theta\\cdot\\frac{2\\pi}{n} + \\phi_n\\right)\\right), \\phi_n = \\frac{\\pi}{n}, \\theta \\in [1, \\ldots, n]\n\\]\nThe side length of the \\(n\\)-polygon: \\[\ns_n = 2r_n\\cos\\left(\\frac{\\pi}{2} - \\frac{\\pi}{n}\\right)\n\\]\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny import App, render, ui, reactive\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\n                id = \"radius\", \n                label = \"radius\", \n                min = 1, max = 10, value = 1, \n                step=0.5\n            ),\n            ui.input_slider(\n                id = \"level\", \n                label = \"Level\", \n                min = 2, max = 7, value = 2, \n                step = 1),\n        ),\n        ui.layout_columns(\n            ui.value_box(\"n\", ui.output_text(\"n\")),\n            ui.value_box(\"radius\", ui.output_text(\"radius\")),\n            fill = False\n        ), \n        ui.layout_columns(\n            ui.output_data_frame(\"points_datafrane\")\n        ), \n        ui.layout_columns(\n            ui.output_plot(\"plot\")\n        )\n    ),\n)\n\n\ndef server(input, output, session):\n\n    @reactive.calc\n    def points():\n        r = input.radius()\n        n = 2 ** input.level()\n        r_n = r / np.sin(np.pi * (0.5 - 1/n))\n        phi_n = np.pi/n\n        points_data = pd.DataFrame([\n            (\n                r_n * np.cos(i * 2 * np.pi / n + phi_n), \n                r_n * np.sin(i * 2 * np.pi / n + phi_n)\n            ) for i in range(1, n+1)\n        ]).rename({0: 'x', 1: 'y'}, axis=1)\n        return points_data\n\n    @render.data_frame\n    def points_datafrane():\n        return points()\n\n    @render.text\n    def n():\n        return str(2 ** input.level())\n\n    @render.text\n    def radius():\n        return str(input.radius())\n\n    @output\n    @render.plot\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.radius() * np.sin(\n            (2 * np.pi / input.n()) * (t - input.radius() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Projects",
-      "2D Sphere Approximation"
-    ]
-  },
-  {
-    "objectID": "mypw/projects/project1.html",
-    "href": "mypw/projects/project1.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "This is a Quarto website draft.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "mypw/more/kendama.html",
-    "href": "mypw/more/kendama.html",
-    "title": "Kendama",
-    "section": "",
-    "text": "Introduction\nKendama (けん玉 or 剣玉) is a traditional Japanese skill toy that has grown into an international sport, blending precision, creativity, and perseverance. At its core, the game involves catching a wooden ball (tama, 玉) on different parts of a spiked handle (ken, 剣), but the real challenge lies in mastering the countless tricks, combinations, and flows that players around the world continue to invent.\nWhat makes Kendama special is the balance it strikes between skill, patience, and training. Every trick requires focus and control, and progress comes only through repeated practice and determination. The process is humbling — drops and misses are part of the journey — but with persistence, even the most difficult tricks become achievable.\nBeyond being a toy, Kendama is a discipline that cultivates concentration, resilience, and creativity. It is a community-driven sport where players of all levels can connect, share, and push one another to grow.\nI began practicing Kendama in December 2022, and over time I came to see it as more than just a skill toy. The deliberate repetition of movements, the quiet focus on balance, and the acceptance of failure as part of progress all resonated with me as a kind of meditation. Each missed catch is a reminder of patience, and each successful landing reflects persistence rewarded. In this way, Kendama has become not only a physical practice but also a philosophy of life, one that mirrors the mindset I bring to both academic and personal challenges.\n\n\nAchivements\n\nVan Jam 2025 - Casual Division, 1st Place\nVan Jam 2024 - Casual Division, 1st Place\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "japan_itinerary/japan.html",
-    "href": "japan_itinerary/japan.html",
-    "title": "日本行",
-    "section": "",
-    "text": "宮崎\n\n\n\n\n\n\n\nTip\n\n\n\n建議使用平板或筆電瀏覽網頁以獲得最佳使用者體驗",
-    "crumbs": [
-      "Home",
-      "日本行"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/japan.html#九州",
-    "href": "japan_itinerary/japan.html#九州",
-    "title": "日本行",
-    "section": "",
-    "text": "宮崎\n\n\n\n\n\n\n\nTip\n\n\n\n建議使用平板或筆電瀏覽網頁以獲得最佳使用者體驗",
-    "crumbs": [
-      "Home",
-      "日本行"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期一.html",
-    "href": "japan_itinerary/miyazaki/星期一.html",
-    "title": "星期一",
-    "section": "",
-    "text": "Note宮崎最大的鬧區\n\n\n\n\n\n西橘是宮崎最大的美食街區，以西橘通為中心，包含相鄰的中央通、惠比壽通、高松通、西銀座通等。\n當地居民暱稱其為「西橘」。道路兩側掛著數個暖色系的燈籠，光是看著隨風搖曳的燈火，就讓人不禁期待著這裡的復古氣氛。\n在西橘地區，有1,500間以上的餐廳櫛比鱗次。可品嘗當地美味下酒菜的居酒屋、時髦酒吧、立飲店、烤肉及義大利料理等，都凝聚在這小小的街道上，最適合來喝透透！\n這裡也有許多一個人可以輕鬆進入的店家，一定能找到自己的愛店。如果出差或觀光時來到宮崎，不妨就前往西橘！",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期一"
-    ]
-  },
-  {
-    "objectID": "japan_itinerary/miyazaki/星期一.html#西橘",
-    "href": "japan_itinerary/miyazaki/星期一.html#西橘",
-    "title": "星期一",
-    "section": "",
-    "text": "Note宮崎最大的鬧區\n\n\n\n\n\n西橘是宮崎最大的美食街區，以西橘通為中心，包含相鄰的中央通、惠比壽通、高松通、西銀座通等。\n當地居民暱稱其為「西橘」。道路兩側掛著數個暖色系的燈籠，光是看著隨風搖曳的燈火，就讓人不禁期待著這裡的復古氣氛。\n在西橘地區，有1,500間以上的餐廳櫛比鱗次。可品嘗當地美味下酒菜的居酒屋、時髦酒吧、立飲店、烤肉及義大利料理等，都凝聚在這小小的街道上，最適合來喝透透！\n這裡也有許多一個人可以輕鬆進入的店家，一定能找到自己的愛店。如果出差或觀光時來到宮崎，不妨就前往西橘！",
-    "crumbs": [
-      "Home",
-      "宮崎",
-      "行程",
-      "星期一"
-    ]
-  },
-  {
     "objectID": "japan_itinerary/miyazaki/food.html",
     "href": "japan_itinerary/miyazaki/food.html",
     "title": "食之時",
@@ -909,6 +645,244 @@
     ]
   },
   {
+    "objectID": "japan_itinerary/japan.html",
+    "href": "japan_itinerary/japan.html",
+    "title": "日本行",
+    "section": "",
+    "text": "宮崎\n\n\n\n\n\n\n\nTip\n\n\n\n建議使用平板或筆電瀏覽網頁以獲得最佳使用者體驗",
+    "crumbs": [
+      "Home",
+      "日本行"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/japan.html#九州",
+    "href": "japan_itinerary/japan.html#九州",
+    "title": "日本行",
+    "section": "",
+    "text": "宮崎\n\n\n\n\n\n\n\nTip\n\n\n\n建議使用平板或筆電瀏覽網頁以獲得最佳使用者體驗",
+    "crumbs": [
+      "Home",
+      "日本行"
+    ]
+  },
+  {
+    "objectID": "mypw/projects/gallery-labels.html",
+    "href": "mypw/projects/gallery-labels.html",
+    "title": "Gallery Labels Generator",
+    "section": "",
+    "text": "GitHub Repo: https://github.com/Harrisonlee0530/gallery-labels\nShiny App: https://harrisonlee0530.shinyapps.io/gallery-labels/\nGallery Labels is a Shiny for Python application designed for an artist for creating, managing, and exporting exhibition labels formatted for print (fractional A4 size cards).\nThe application allows manual entry or bulk upload of artwork metadata and supports export to print-ready PDF (double-spaced, embedded font)\nThe main goal for this application is to get used to github workflow and Shiny for Python",
+    "crumbs": [
+      "Projects",
+      "Gallery Labels Generator"
+    ]
+  },
+  {
+    "objectID": "mypw/projects/gallery-labels.html#features",
+    "href": "mypw/projects/gallery-labels.html#features",
+    "title": "Gallery Labels Generator",
+    "section": "Features",
+    "text": "Features\n\nCreate labels via sidebar form inputs\nBulk upload labels from CSV\nDelete labels using a title-based dropdown selector\nSession-isolated user data (no shared state between users)\nExport labels as:\n\nPDF (print-ready, double-spaced typography)",
+    "crumbs": [
+      "Projects",
+      "Gallery Labels Generator"
+    ]
+  },
+  {
+    "objectID": "mypw/projects/test.html",
+    "href": "mypw/projects/test.html",
+    "title": "Shinylive in Quarto example",
+    "section": "",
+    "text": "This is a Shinylive application embedded in a Quarto doc.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n\nfrom shiny import *\n\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\n\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "mypw/projects/projects.html",
+    "href": "mypw/projects/projects.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "A list of projects …\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "Projects Overview"
+    ]
+  },
+  {
+    "objectID": "mypw/about.html",
+    "href": "mypw/about.html",
+    "title": "Harrison Li",
+    "section": "",
+    "text": "I am a highly motivated graduate student in Masters of Data Science @ UBC with a strong foundation in physics and computational methods, interested in data science and computational modeling for solving real-world problems. My academic journey has equipped me with a diverse skill set spanning physics, mathematics, and programming, which I apply to tackle complex challenges. I am eager to contribute my analytical abilities and technical expertise to innovative projects while continuing to expand my knowledge and professional experience in my graduate studies."
+  },
+  {
+    "objectID": "mypw/about.html#experience",
+    "href": "mypw/about.html#experience",
+    "title": "Harrison Li",
+    "section": "Experience",
+    "text": "Experience\nFeng Chia University | Teaching Assitant - 1st year Classical Mechanics | Sep 2021 - Jan 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSome random text\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "mypw/more/kendama.html",
+    "href": "mypw/more/kendama.html",
+    "title": "Kendama",
+    "section": "",
+    "text": "Introduction\nKendama (けん玉 or 剣玉) is a traditional Japanese skill toy that has grown into an international sport, blending precision, creativity, and perseverance. At its core, the game involves catching a wooden ball (tama, 玉) on different parts of a spiked handle (ken, 剣), but the real challenge lies in mastering the countless tricks, combinations, and flows that players around the world continue to invent.\nWhat makes Kendama special is the balance it strikes between skill, patience, and training. Every trick requires focus and control, and progress comes only through repeated practice and determination. The process is humbling — drops and misses are part of the journey — but with persistence, even the most difficult tricks become achievable.\nBeyond being a toy, Kendama is a discipline that cultivates concentration, resilience, and creativity. It is a community-driven sport where players of all levels can connect, share, and push one another to grow.\nI began practicing Kendama in December 2022, and over time I came to see it as more than just a skill toy. The deliberate repetition of movements, the quiet focus on balance, and the acceptance of failure as part of progress all resonated with me as a kind of meditation. Each missed catch is a reminder of patience, and each successful landing reflects persistence rewarded. In this way, Kendama has become not only a physical practice but also a philosophy of life, one that mirrors the mindset I bring to both academic and personal challenges.\n\n\nAchivements\n\nVan Jam 2026 - Casual Random Speed Ladder, 2nd Place\nVan Jam 2025 - Casual Division, 1st Place\nVan Jam 2024 - Casual Division, 1st Place\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "mypw/projects/sphere_approx_2d.html",
+    "href": "mypw/projects/sphere_approx_2d.html",
+    "title": "2D Sphere Approximation",
+    "section": "",
+    "text": "Project Not Completed\nAn interactive dashboard created with Shiny for Python to approximate a 2D sphere with radius \\(r\\) to be used in wood turning.\nThe sphere is approximated by \\(n\\)-polygon where \\(n = 2^\\text{level}\\), and level is the discretization level.\nThe distance from any node to center \\[\nr_n = \\frac{r}{\\sin\\left(\\frac{\\pi}{2} - \\frac{\\pi}{n}\\right)}\n\\]\nThe points to approximate the sphere can be calculated by \\[\np_n = r_n\\cdot\\left(\\cos\\left(\\theta\\cdot\\frac{2\\pi}{n} + \\phi_n\\right), \\sin\\left(\\theta\\cdot\\frac{2\\pi}{n} + \\phi_n\\right)\\right), \\phi_n = \\frac{\\pi}{n}, \\theta \\in [1, \\ldots, n]\n\\]\nThe side length of the \\(n\\)-polygon: \\[\ns_n = 2r_n\\cos\\left(\\frac{\\pi}{2} - \\frac{\\pi}{n}\\right)\n\\]\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny import App, render, ui, reactive\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\n                id = \"radius\", \n                label = \"radius\", \n                min = 1, max = 10, value = 1, \n                step=0.5\n            ),\n            ui.input_slider(\n                id = \"level\", \n                label = \"Level\", \n                min = 2, max = 7, value = 2, \n                step = 1),\n        ),\n        ui.layout_columns(\n            ui.value_box(\"n\", ui.output_text(\"n\")),\n            ui.value_box(\"radius\", ui.output_text(\"radius\")),\n            fill = False\n        ), \n        ui.layout_columns(\n            ui.output_data_frame(\"points_datafrane\")\n        ), \n        ui.layout_columns(\n            ui.output_plot(\"plot\")\n        )\n    ),\n)\n\n\ndef server(input, output, session):\n\n    @reactive.calc\n    def points():\n        r = input.radius()\n        n = 2 ** input.level()\n        r_n = r / np.sin(np.pi * (0.5 - 1/n))\n        phi_n = np.pi/n\n        points_data = pd.DataFrame([\n            (\n                r_n * np.cos(i * 2 * np.pi / n + phi_n), \n                r_n * np.sin(i * 2 * np.pi / n + phi_n)\n            ) for i in range(1, n+1)\n        ]).rename({0: 'x', 1: 'y'}, axis=1)\n        return points_data\n\n    @render.data_frame\n    def points_datafrane():\n        return points()\n\n    @render.text\n    def n():\n        return str(2 ** input.level())\n\n    @render.text\n    def radius():\n        return str(input.radius())\n\n    @output\n    @render.plot\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.radius() * np.sin(\n            (2 * np.pi / input.n()) * (t - input.radius() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Projects",
+      "2D Sphere Approximation"
+    ]
+  },
+  {
+    "objectID": "mypw/projects/interactive_plot.html",
+    "href": "mypw/projects/interactive_plot.html",
+    "title": "Sine function",
+    "section": "",
+    "text": "The plot below allows you to control parameters used in the sine function. Experiment with the period, amplitude, and phase shift to see how they affect the graph.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 420\n\nfrom shiny import App, render, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"period\", \"Period\", 0.5, 2, 1, step=0.5),\n            ui.input_slider(\"amplitude\", \"Amplitude\", 0, 2, 1, step=0.25),\n            ui.input_slider(\"shift\", \"Phase shift\", 0, 2, 0, step=0.1),\n        ),\n        ui.output_plot(\"plot\"),\n    ),\n)\n\n\ndef server(input, output, session):\n    @output\n    @render.plot(alt=\"Sine function\")\n    def plot():\n        t = np.arange(0.0, 4.0, 0.01)\n        s = input.amplitude() * np.sin(\n            (2 * np.pi / input.period()) * (t - input.shift() / 2)\n        )\n        fig, ax = plt.subplots()\n        ax.set_ylim([-2, 2])\n        ax.plot(t, s)\n        ax.grid()\n\n\napp = App(app_ui, server)\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "mypw/projects/project1.html",
+    "href": "mypw/projects/project1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "This is a Quarto website draft.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html",
+    "href": "japan_itinerary/miyazaki/miyazaki.html",
+    "title": "宮崎",
+    "section": "",
+    "text": "宮崎縣位於九州東南部，東邊有美麗的海岸線，西邊有九州山地及霧島連峰等雄偉的山岳景觀。其中，能享受美麗的自然風光和熱帶島嶼氛圍的景點眾多，度假設施也相當充實，作為富有南國風情的旅遊勝地而深受海內外旅人的歡迎。\n宮崎縣還被譽為日本神話的故鄉，有許多流傳著古老神話及傳說的景點，可以領略到日本歷史和傳統文化的獨特魅力。\n宮崎縣是日本最古老的史書《古事記》和《日本書紀》中所描述的「日向神話」的舞台。 在「日向神話」的一開始就描述了關於天神自眾神之國降臨到高千穗的場景。在被稱為「神話故鄉」的高千穂和青島等著名景點，可以欣賞到仙氣滿滿，充滿神秘氛圍的大自然景觀。\n一年四季氣候溫暖宜人的宮崎縣，除了盛產芒果以外，以宮崎牛為代表的品牌牛肉、豬肉、地雞等美味食材也享譽全日本。\n※《古事記》和《日本書紀》是記載日本神話、日本古代史的重要史籍 (詳細資訊)。\n※ 資料來源",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#地圖",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#地圖",
+    "title": "宮崎",
+    "section": "地圖",
+    "text": "地圖",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#住宿",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#住宿",
+    "title": "宮崎",
+    "section": "住宿",
+    "text": "住宿\n\nPrince Smart Inn Miyazaki\n\n星期一公車路線\n星期五 \\(06:45\\) 去機場\n\\(07:20\\) 到機場\n\\(10:30\\) 起飛",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#行程",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#行程",
+    "title": "宮崎",
+    "section": "行程",
+    "text": "行程\n\n星期一\n\n\n星期二\n\n\n星期三\n\n\n星期四\n\n\n其他景點",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#美食",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#美食",
+    "title": "宮崎",
+    "section": "美食",
+    "text": "美食\n\n高千穗峽周邊\n\n\n青島周邊\n\n\n䶏戶周邊\n\n\n飫肥城下町周邊\n\n\n市區",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#所有地點-httpsmaps.app.goo.gldokanaw5grpgd5cv7",
+    "title": "宮崎",
+    "section": "所有地點 https://maps.app.goo.gl/DokaNAW5grPGD5cv7",
+    "text": "所有地點 https://maps.app.goo.gl/DokaNAW5grPGD5cv7",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/miyazaki.html#資料來源",
+    "href": "japan_itinerary/miyazaki/miyazaki.html#資料來源",
+    "title": "宮崎",
+    "section": "資料來源",
+    "text": "資料來源\n\nhttps://www.kanko-miyazaki.jp/zh-TW\nhttps://www.miyazaki-city.tourism.or.jp/zh_TW\nhttps://takachiho-kanko.info/?stt_lang=zh-TW\nhttps://kyushu.letsgojp.com/archives/537083/\nhttps://littlebeartrips.com/miyazakiken-travel-spot/\nhttps://www.japan.travel/en/destinations/kyushu/miyazaki/\nhttps://rinosseros.blogspot.com/2024/02/miyazaki-coastline-sun-blue-skies-and.html\nhttps://kyushu.letsgojp.com/archives/609036/\nhttps://www.kanko-miyazaki.jp/zh-TW/highlights/miyazaki_lunch\nhttps://www.gltjp.com/zh-hant/article/item/20285/",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "宮崎"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期三.html",
+    "href": "japan_itinerary/miyazaki/星期三.html",
+    "title": "星期三",
+    "section": "",
+    "text": "Tip方案 A 出發 \\(\\to\\) 青島神社 \\(\\to\\) 飫肥城下町 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n\n\\(09:00\\quad\\) 到青島神社 - 在青島 附近活動\n\\(12:20\\quad\\) 出發 去 飫肥城下町\n\\(\\ldots\\) 1\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nNote方案 B 出發 \\(\\to\\) 鵜戶神宮 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n參照\n\\(09:30\\quad\\) 出發\n\\(11:20\\quad\\) 到鵜戶神宮\n\\(13:00\\quad\\) 出發\n\\(14:10\\quad\\) 到青島神社\n\n\\(\\ldots\\) 2\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nWarning方案 C 出發 \\(\\to\\) 青島神社 \\(\\to\\) 日南太陽花園(週三公休) \\(\\to\\) 鵜戶神宮 \\(\\to\\) 返回\n\n\n\n\n\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島待 \\(3\\) 小時 \\(+\\) 吃午餐\n\\(12:20\\) 出發去 日南太陽花園\n搭30分鐘公車再步行25分鐘 \\(\\sim\\yen 1000\\)\n下午 \\(01:30\\) 到\n\n在日南太陽花園待 \\(1\\) 小時 \\(30\\) 分鐘\n\n下午 \\(03:00\\) 出發\n步行10分鐘+搭5分鐘公車+步行10分鐘去鵜戶神宮 \\(\\sim\\yen 250\\)\n\n鵜戶神宮 待 \\(1\\) 小時\n下午 04:32 返回 \\(\\sim 1\\) 小時, \\(\\sim\\yen 1550\\)\n\n\n\n\n\n\n\n\n\nNote方案 D 出發 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島 附近活動\n\n\\(\\ldots\\) 3\n\n回市區逛\n公車",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "行程",
+      "星期三"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期三.html#交通",
+    "href": "japan_itinerary/miyazaki/星期三.html#交通",
+    "title": "星期三",
+    "section": "",
+    "text": "Tip方案 A 出發 \\(\\to\\) 青島神社 \\(\\to\\) 飫肥城下町 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n\n\\(09:00\\quad\\) 到青島神社 - 在青島 附近活動\n\\(12:20\\quad\\) 出發 去 飫肥城下町\n\\(\\ldots\\) 1\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nNote方案 B 出發 \\(\\to\\) 鵜戶神宮 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n參照\n\\(09:30\\quad\\) 出發\n\\(11:20\\quad\\) 到鵜戶神宮\n\\(13:00\\quad\\) 出發\n\\(14:10\\quad\\) 到青島神社\n\n\\(\\ldots\\) 2\n\n回市區逛\n公車\n\n\n\n\n\n\n\n\n\n\nWarning方案 C 出發 \\(\\to\\) 青島神社 \\(\\to\\) 日南太陽花園(週三公休) \\(\\to\\) 鵜戶神宮 \\(\\to\\) 返回\n\n\n\n\n\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島待 \\(3\\) 小時 \\(+\\) 吃午餐\n\\(12:20\\) 出發去 日南太陽花園\n搭30分鐘公車再步行25分鐘 \\(\\sim\\yen 1000\\)\n下午 \\(01:30\\) 到\n\n在日南太陽花園待 \\(1\\) 小時 \\(30\\) 分鐘\n\n下午 \\(03:00\\) 出發\n步行10分鐘+搭5分鐘公車+步行10分鐘去鵜戶神宮 \\(\\sim\\yen 250\\)\n\n鵜戶神宮 待 \\(1\\) 小時\n下午 04:32 返回 \\(\\sim 1\\) 小時, \\(\\sim\\yen 1550\\)\n\n\n\n\n\n\n\n\n\nNote方案 D 出發 \\(\\to\\) 青島神社 \\(\\to\\) 返回\n\n\n\n\n\n出發\n\n\\(07:40\\) 出發\n\n公車路線\n\\(08:40\\) 到青島神社\n在青島 附近活動\n\n\\(\\ldots\\) 3\n\n回市區逛\n公車",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "行程",
+      "星期三"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期三.html#footnotes",
+    "href": "japan_itinerary/miyazaki/星期三.html#footnotes",
+    "title": "星期三",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n自己想👍 ¯\\_(ツ)_/¯↩︎\n自己想👍 ¯\\_(ツ)_/¯↩︎\n自己想👍 ¯\\_(ツ)_/¯↩︎",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "行程",
+      "星期三"
+    ]
+  },
+  {
     "objectID": "japan_itinerary/miyazaki/星期四.html",
     "href": "japan_itinerary/miyazaki/星期四.html",
     "title": "星期四",
@@ -958,6 +932,32 @@
       "宮崎",
       "行程",
       "星期四"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期一.html",
+    "href": "japan_itinerary/miyazaki/星期一.html",
+    "title": "星期一",
+    "section": "",
+    "text": "Note宮崎最大的鬧區\n\n\n\n\n\n西橘是宮崎最大的美食街區，以西橘通為中心，包含相鄰的中央通、惠比壽通、高松通、西銀座通等。\n當地居民暱稱其為「西橘」。道路兩側掛著數個暖色系的燈籠，光是看著隨風搖曳的燈火，就讓人不禁期待著這裡的復古氣氛。\n在西橘地區，有1,500間以上的餐廳櫛比鱗次。可品嘗當地美味下酒菜的居酒屋、時髦酒吧、立飲店、烤肉及義大利料理等，都凝聚在這小小的街道上，最適合來喝透透！\n這裡也有許多一個人可以輕鬆進入的店家，一定能找到自己的愛店。如果出差或觀光時來到宮崎，不妨就前往西橘！",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "行程",
+      "星期一"
+    ]
+  },
+  {
+    "objectID": "japan_itinerary/miyazaki/星期一.html#西橘",
+    "href": "japan_itinerary/miyazaki/星期一.html#西橘",
+    "title": "星期一",
+    "section": "",
+    "text": "Note宮崎最大的鬧區\n\n\n\n\n\n西橘是宮崎最大的美食街區，以西橘通為中心，包含相鄰的中央通、惠比壽通、高松通、西銀座通等。\n當地居民暱稱其為「西橘」。道路兩側掛著數個暖色系的燈籠，光是看著隨風搖曳的燈火，就讓人不禁期待著這裡的復古氣氛。\n在西橘地區，有1,500間以上的餐廳櫛比鱗次。可品嘗當地美味下酒菜的居酒屋、時髦酒吧、立飲店、烤肉及義大利料理等，都凝聚在這小小的街道上，最適合來喝透透！\n這裡也有許多一個人可以輕鬆進入的店家，一定能找到自己的愛店。如果出差或觀光時來到宮崎，不妨就前往西橘！",
+    "crumbs": [
+      "Home",
+      "宮崎",
+      "行程",
+      "星期一"
     ]
   }
 ]
