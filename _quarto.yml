@@ -32,23 +32,6 @@ website:
         - mypw/projects/gallery-labels.qmd
         - mypw/projects/sphere_approx_2d.qmd
 
-    - id: japan-itinerary
-      title: 日本行
-      style: floating
-      contents:
-        - japan_itinerary/japan.qmd
-        - section: "宮崎"
-          contents: 
-            - japan_itinerary/miyazaki/miyazaki.qmd
-            - section: "行程"
-              contents: 
-              - japan_itinerary/miyazaki/星期一.qmd
-              - japan_itinerary/miyazaki/星期二.qmd
-              - japan_itinerary/miyazaki/星期三.qmd
-              - japan_itinerary/miyazaki/星期四.qmd
-            - japan_itinerary/miyazaki/景點.qmd
-            - japan_itinerary/miyazaki/food.qmd
-    
 
 format:
   html:
