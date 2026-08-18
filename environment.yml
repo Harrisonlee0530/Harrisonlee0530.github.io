@@ -12,6 +12,7 @@ dependencies:
   - anywidget
   - altair
   - pyyaml
+  - nbformat
   - pip:
       - shinylive
       - rsconnect
